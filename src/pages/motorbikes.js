@@ -18,20 +18,16 @@ export default ({ data }) => {
       <div className="container spacing">
         <div className="row">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id} className="col-sm-6 bikeGallery">
+                <div key={node.id} className="col-sm-4 bikeGallery">
                     <div class="bikeImage">
                       <img src={node.frontmatter.featuredImage.publicURL} alt="" />
-                      <h3>
+                      <h3 style={{ textAlign: 'right' }}>
                           {node.frontmatter.title}
                       </h3>
                     </div>
-                    <div class="row" style={{marginTop:'10px'}}>
-                      <div class="col-sm-7">
-                        <p>{node.excerpt}</p>
-                      </div>
-                      <div class="col-sm-5">
-                        <p className="bikeRRP">RRP: £{node.frontmatter.oldprice}</p>
-                        <p className="tragoPrice">Our Price: £{node.frontmatter.newprice}</p>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <p className="bikeRRP">£{node.frontmatter.oldprice}</p>
                         <Link className="gallLink" to={node.fields.slug}>View</Link>
                       </div>
                     </div>

@@ -215,13 +215,21 @@ h2,h3,h4,h5,h6{
     MOTORBIKE PAGE STYLES
 ==================================*/
 
+.single {
+    padding: 15px;
+}
+
 .bikeGallery {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 15px;
 }
 
   .bikeGallery img {
     display: block;
     max-width: 100%;
+    position: relative; 
+    z-index: -2;
   }
 
   .bikeGallery .bikeImage {
@@ -229,13 +237,13 @@ h2,h3,h4,h5,h6{
   }
 
   .bikeGallery h3 {
-      display: inline-block;
+      display: block;
       padding: 5px;
       color: #1c2858;
-      position: absolute;
-      top: 0;
-      left: 0;
       font-weight: 700;
+      z-index: 2;
+      margin-top: 15px;
+      margin-bottom: 0;
   }
 
   .motorbikeParallax {
@@ -261,18 +269,16 @@ h2,h3,h4,h5,h6{
 }
 
 .bikeRRP, .tragoPrice {
-    text-align: right;
     font-weight: 700;
     margin-bottom: 0;
     font-size: 16px;
+    margin-top: 0;
 }
 
 .bikeRRP {
-    text-decoration: line-through;
-}
-
-.tragoPrice {
     font-size: 22px;
+    z-index: 3;
+    text-align: right;
 }
 
 .gallLink {
