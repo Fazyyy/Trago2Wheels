@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Services from "../components/services"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
+import Map from '../components/Map'
 
 export default ({ data }) => {
   
@@ -11,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <title>Trago2Wheels</title>
-        <script async defersrc="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-mOUesGzkeyfaEFMYdsckrf7xr3iPP9U&callback=initMap"></script>
       </Helmet>
         <SwiperHome />
         <div className="container spacing">
@@ -31,6 +31,7 @@ export default ({ data }) => {
             <p>If you would like to find out more information on our great value 125cc motorbikes for sale, please do not hesitate to get in touch. We are passionate about motorbikes and are always happy to talk to our customers.</p>
         </div>
         <Services />
+        <Map />
     </Layout>
   )
 }

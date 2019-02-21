@@ -5,6 +5,7 @@ module.exports = {
         title: `Trago2Wheels`,
     },
     plugins: [
+        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
