@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "gatsby-link";
+import Logo from "../img/trago-logo.png"
 import {
   Collapse,
   Container,
   Navbar,
   NavbarToggler,
+  NavbarBrand,
   Nav,
   NavItem
 } from "reactstrap";
@@ -34,24 +36,38 @@ export default class Navigation extends React.Component {
 
   render() {
     return (
-        <Navbar className="navigation__navbar" light expand="md">
+        <Navbar className="navigation__navbar navbar-fixed-top" light expand="md">
             <Container>
+            <NavbarBrand href="/"><img src={Logo} alt="Trago2Wheels" /></NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse isOpen={!this.state.collapsed} navbar>
-                <Nav className="mr-auto" navbar>
+                <Nav className="ml-auto" navbar>
                 <NavItem>
-                    <Link className="nav-link navigation__navlinks" to="/">
-                    Home
-                    </Link>
+                    <Link className="nav-link navigation__navlinks" to="/">Home</Link>
                 </NavItem>
                 <NavItem>
-                    <Link
-                    onClick={this.closeNavbar}
-                    className="nav-link navigation__navlinks"
-                    to="/motorbikes/"
-                    >
-                    Motorbikes
-                    </Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/motorbikes/">Motorbikes</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Scooters</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Clothing</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Helmets</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Tools</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Training</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">News</Link>
+                </NavItem>
+                <NavItem>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Contact</Link>
                 </NavItem>
                 </Nav>
             </Collapse>
