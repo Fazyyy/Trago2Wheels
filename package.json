@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "trago2wheels",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Merchandise brochure for Trago 2 Wheels",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -12,9 +12,26 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.1.4",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-sharp": "^2.0.21",
+    "gatsby-remark-copy-linked-files": "^2.0.9",
+    "gatsby-remark-images": "^3.0.4",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-remark": "^2.2.5",
+    "gatsby-transformer-sharp": "^2.1.14",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.0",
+    "react-id-swiper": "^1.6.8",
+    "sharp": "^0.21.3"
   },
   "repository": {
     "type": "git",

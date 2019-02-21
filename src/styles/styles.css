@@ -1,0 +1,416 @@
+/*==================================
+    GENERAL STYLES
+==================================*/
+
+*{
+    box-sizing:border-box
+}
+
+*:focus{
+    outline:none !important
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+.mx-auto{
+    display:block
+}
+
+a:hover{
+    text-decoration:none;
+    color:inheret
+}
+
+h1{
+    font-family:"Roboto";
+    font-weight:700;
+    color: #272635;
+    font-size: 1.4em;
+}
+
+h2,h3,h4,h5,h6{
+    font-family:"Roboto Condensed";
+}
+
+
+.spacing{
+    margin-top:4rem;
+    margin-bottom:4rem
+}
+
+/*==================================
+    SIPER HOME STYLES
+==================================*/
+
+.swiperMaster {
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #131313;
+    position: relative;
+  }
+
+  .swiper-container:after {
+      content:"";
+      background: rgba(0,0,0,0.69);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 100%;
+      z-index: 9;
+      pointer-events: none;
+  }
+
+  .swiperOverlay {
+      position:absolute;
+      z-index: 11;
+      bottom: 20vh;
+      left: 0;
+      width: 100%;
+  }
+
+  .swiperOverlay h2 {
+    color: #fff;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #f4f4f4;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/kawasaki-ninja.jpg');
+  }
+
+  .swiperSlide1,
+  .swiperSlide3 {
+      background-image: url("../img/biker-lean.jpg");
+  }
+
+  .promo {
+      background: rgba(255,255,255,0.89);
+      border-radius: 50%;
+      width: 280px;
+      height: 280px;
+      margin-bottom: 75px;
+      text-align: center;
+      float: right;
+      z-index: 11;
+  }
+
+  .promo h2 {
+      max-width: 180px;
+      margin: 0 auto;
+      margin-top: 50px;
+      display:block;
+      color: #1c2858;
+  }
+
+  .promo p {
+      font-family: "Roboto Condensed";
+      margin-bottom: 0px;
+      font-size: 3em;
+  }
+
+  .promo a {
+      color: #272635;
+      transition: 0.5s ease;
+      text-decoration: none;
+      font-size: 1.4em;
+      font-weight: 500;
+  }
+
+    .promo a:hover {
+        color: #5c6395;
+        text-decoration: none;
+    }   
+/*==================================
+    SERVICES STYLES
+==================================*/
+
+.services {
+    color: #fff;
+    padding-top:4rem;
+    padding-bottom: 4rem;
+}
+
+.services .service {
+    background: #1c2858;
+    padding: 20px 15px;
+    border-radius: 15px;
+    margin: 5px 0;
+    transition: 0.5s ease;
+}
+
+.services h2 {
+    color: #fff;
+}
+
+/*==================================
+    MOTORBIKE BANNER
+==================================*/
+
+.motorbikeBanner {
+    background-image: url('../img/motorbikeBanner.jpg');
+    height: 40vh;
+    width:100%;
+    background-attachment: fixed;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.motorbikeBanner:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.59);
+    z-index: 2;
+    top:0;
+    left: 0;
+}
+
+.motorbikeBanner .container {
+    position: relative;
+    height: 100%;
+    z-index: 3;
+}
+
+.motorbikeBanner .container .row {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.motorbikeBanner h1 {
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.motorbikeBanner p {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+/*==================================
+    MOTORBIKE PAGE STYLES
+==================================*/
+
+.bikeGallery {
+    margin-bottom: 20px;
+}
+
+  .bikeGallery img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .bikeGallery .bikeImage {
+      position: relative;
+  }
+
+  .bikeGallery h3 {
+      display: inline-block;
+      padding: 5px;
+      color: #1c2858;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-weight: 700;
+  }
+
+  .motorbikeParallax {
+    height: 400px;
+    background-attachment: fixed;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.motorbikeParallax:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.69);
+    content: "";
+    z-index: 1;
+}
+
+.bikeRRP, .tragoPrice {
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.bikeRRP {
+    text-decoration: line-through;
+}
+
+.tragoPrice {
+    font-size: 22px;
+}
+
+.gallLink {
+    float: right;
+    display: block;
+    width: 120px;
+    background: #1c2858;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 15px;
+    transition: 0.5s ease;
+    padding: 5px 0;
+}
+
+.gallLink:hover {
+    background: #5c6395;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.bikeInfo {
+    padding: 0;
+    margin: 25px 0;
+    list-style-type: none;
+    max-width: 600px;
+    display: block;
+}
+
+ul.bikeInfo li {
+    padding: 2px 5px;
+}
+
+ul.bikeInfo li:nth-child(even) {
+    background: #eee;
+}
+
+ul.bikeInfo li span {
+    font-weight: bold;
+    float: right;
+}
+
+/*==================================
+    FOOTER STYLES
+==================================*/
+
+  .footer {
+      background: #1c2858;
+      color: #fff;
+      padding-top:15px;
+      padding-bottom: 15px;
+  }
+
+  .footer .socials, .footer .policies {
+      padding: 5px 0;
+      margin: 0;
+      list-style-type: none;
+  }
+
+  .footer .socials li, .footer .policies li {
+      display: inline-block;
+      padding-right: 10px;
+  }
+
+  .footer .policies li a, .tel a {
+      color: #fff;
+  }
+
+  .footer .policies li a:hover, .tel a:hover {
+    color: #dfd9e2;
+    text-decoration: none;
+}
+
+/*==================================
+    FOOTER FORM STYLES
+==================================*/
+
+h2.formTitle {
+    text-align: right;
+}
+#mc_embed_signup_scroll input {
+    width: 50%;
+    min-width: 280px;
+    margin-top: 5px;
+    border: none;
+    padding: 5px;
+    font-family: Roboto;
+    float: right;
+    display: block;
+    background: #e8e9f3;
+    transition: 0.5s ease;
+}
+
+#mc_embed_signup_scroll input:focus {
+    background: #fff;
+    color: #000;
+}
+
+#mc_embed_signup_scroll #mc-embedded-subscribe {
+    background: #5c6395;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+#mc_embed_signup_scroll #mc-embedded-subscribe:hover {
+    background: #dfd9e2;
+    color: #272635;
+}
+
+/*==================================
+    NAVBAR STYLES
+==================================*/
+
+    #navbar {
+        transition: top 0.5s;
+    }
+    nav.navbar {
+        background: #1c2858;
+    }
+    body .navbar-light .navbar-nav .nav-link {
+        font-family: Roboto;
+        color: #fff;
+    }
+    body .navbar-light .navbar-nav .active > .nav-link {
+        color: #e8e9f3;        
+    }
+    body .navbar-light .navbar-nav .nav-link:hover {
+        color: #dfd9e2;
+    }
