@@ -1,6 +1,5 @@
 import React from "react"
 import { StaticQuery, Link, graphql } from "gatsby"
-import Navigation from "./Navigation"
 import TwitterLogo from "../img/twitter.png"
 import FacebookLogo from "../img/facebook.png"
 
@@ -19,7 +18,8 @@ export default ({ children }) => (
     }    
     render={data => (      
         <div>
-            <Navigation />
+            <Link to="/">Home</Link>{" "}
+            <Link to="/motorbikes">Motorbikes</Link>
             {children}
             <div className="footer container-fluid">
                 <div className="container">
