@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Img from 'gatsby-image'
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
@@ -27,7 +28,9 @@ export default ({ data }) => {
           <div className="bikeContainer">
             <div className="row">
               <div className="col-sm-6">
-                <img src={post.mainImage.publicURL} alt={post.title} className="img-fluid" />
+                <Img
+                  fluid={post.mainImage.childImageSharp.fluid}
+                />
               </div>
               <div className="col-sm-6">
               <h2>{post.title}</h2>
@@ -40,7 +43,13 @@ export default ({ data }) => {
                   <li>Transmission: <span>{post.transmission}</span></li>
                   <li>Fuel Tank: <span>{post.fueltank} Litres</span></li>
                 </ul>
-                <p style={{ textAlign:'right', fontWeight: '700', fontSize: '22px' }}>&pound;{post.oldprice}</p>
+                <p style={{
+                  textAlign:'right',
+                  fontWeight: '700',
+                  fontSize: '22px'
+                }}>
+                  &pound;{post.oldprice}
+                </p>
                 <p style={{ textAlign:'right' }}>Voucher: £{voucher}</p>
               </div>
             </div>
@@ -69,8 +78,11 @@ query($slug: String!) {
                 name
               }
               mainImage {
-                publicURL
-                name
+                childImageSharp {
+                  fluid(maxWidth:600) {
+                    ...GatsbyImageSharpFluid_tracedSVG
+                  }
+                }
               }
             }
         }

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import Img from 'gatsby-image'
 
 export default ({ data }) => {
   return (
@@ -20,7 +21,9 @@ export default ({ data }) => {
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id} className="col-sm-4 bikeGallery">
                     <div class="bikeImage">
-                      <img src={node.frontmatter.featuredImage.publicURL} alt="" />
+                      <Img
+                        fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                      />
                       <h3 style={{ textAlign: 'right' }}>
                           {node.frontmatter.title}
                       </h3>
@@ -53,10 +56,11 @@ export const query = graphql`
             oldprice
             newprice
             featuredImage {
-            	name
-            	absolutePath
-              base
-              publicURL
+              childImageSharp {
+                fluid(maxWidth:600) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
             }
           }
           fields {
