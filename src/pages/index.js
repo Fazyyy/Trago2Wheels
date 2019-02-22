@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Services from "../components/services"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
-import Map from '../components/Map'
+import Map from '../components/map'
 
 export default ({ data }) => {
   
