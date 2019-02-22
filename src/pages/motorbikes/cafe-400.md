@@ -15,6 +15,7 @@ fueltank: "12"
 
 featuredImage: "./cafe-400.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 The Cafe 400's vintage looks will satisfy your sixties racer nostalgia! Featuring twin front discs, adjustable front and rear shocks, clip ons and a styleish tank, its Taiwanese Honda derived engine with twin exhausts roars through its 5 speed box.

@@ -15,6 +15,7 @@ fueltank: "12"
 
 featuredImage: "./maverick-125.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 An off-road inspired motorcycle with an aggressive retro styled look.

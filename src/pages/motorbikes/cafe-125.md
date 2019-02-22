@@ -14,6 +14,7 @@ fueltank: "12"
 
 featuredImage: "./cafe-125.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 A modern classic in a stylish cafe racer style, with low-mounted handlebars, cafe racer seat and elongated fuel tank which make the Cafe 125 look like it has been ridden straight out of a 1960's movie.

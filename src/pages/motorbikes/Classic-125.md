@@ -14,6 +14,7 @@ fueltank: "12"
 
 featuredImage: "./classic-125.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 Unique, unconventional and with plenty of attitude, the Classic 125 is Herald Motor Co.'s bestselling bike, renowned for its retro-theme and smooth handling.

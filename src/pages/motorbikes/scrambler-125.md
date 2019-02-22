@@ -14,6 +14,7 @@ fueltank: "12"
 
 featuredImage: "./scrambler-125.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 The Scrambler 125 intermingles lightweight legendary styling with a modern twist, making it the perfect head-turner to accompany you on your journey.

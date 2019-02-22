@@ -45,30 +45,29 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    allMarkdownRemark {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            oldprice
-            newprice
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth:600) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
+query IndexQuery {
+  allMarkdownRemark(filter: {frontmatter: {product: {regex: "/motorbike/"}}}) {
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          oldprice
+          newprice
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth:600) {
+                ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          fields {
-            slug
-          }
-          excerpt
         }
+        fields {
+          slug
+        }
+        excerpt
       }
     }
   }
+}
 `

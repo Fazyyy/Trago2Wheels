@@ -14,6 +14,7 @@ fueltank: "12"
 
 featuredImage: "./classic-400.png"
 mainImage: "./classic-125-main.jpg"
+product: "motorbike"
 ---
 
 Following on from the success of our Classic 125, we bring you the Classic 400. Traditional in looks and build, it ensures that fun and feel good factor and will put a smile on the face of any rider.
