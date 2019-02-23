@@ -49,13 +49,13 @@ export default class Navigation extends React.Component {
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/motorbikes/">Motorbikes</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Scooters</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/scooters/">Scooters</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Clothing</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/clothing/">Clothing</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Helmets</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/helmets/">Helmets</Link>
                 </NavItem>
                 <NavItem>
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Tools</Link>
