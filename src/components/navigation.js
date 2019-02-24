@@ -52,10 +52,10 @@ export default class Navigation extends React.Component {
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/scooters/">Scooters</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/clothing/">Clothing</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/clothing/">Clothing</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/helmets/">Helmets</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/helmets/">Helmets</Link>
                 </NavItem>
                 <NavItem>
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Tools</Link>
