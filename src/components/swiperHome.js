@@ -25,25 +25,87 @@ class swiperHome extends React.Component {
     return (
       <div classname="swiperMaster">
         <Swiper {...params}>
-          <div className="swiperSlide1"></div>
-          <div className="swiperSlide2"></div>
-          <div className="swiperSlide3"></div>
-          <div className="swiperSlide4"></div>
-          <div className="swiperSlide5"></div>
-        </Swiper>
-          <div className="swiperOverlay">
-            <div className="container">
-              <div className="row">
-                <div className="col">
+          <div className="swiperSlide1">
+            <div className="container-fluid swiperSlideInner">
+              <div className="container" style={{ position:'relative' }}>
                 <div className="promo">
-                  <h2>On The Road Package</h2>
-                  <p>£79.50</p>
-                  <Link to="/">Learn more</Link>
+                  <h2>On The Road Deal</h2>
+                  <p><Link to="/">View</Link></p>
                 </div>
+                <div className="row">
+                  <div className="col-sm-6 swiperText">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p>Sed interdum mattis ligula a finibus. Suspendisse sodales velit nec fringilla convallis. Cras vitae lectus nec nibh molestie tempus et sed ipsum. Quisque lacinia nunc eget mattis feugiat. Nam lacinia tempus quam, et lobortis libero dignissim a. Mauris placerat, ipsum sed bibendum mattis.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className="swiperSlide2">
+            <div className="container-fluid swiperSlideInner">
+              <div className="container" style={{ position:'relative' }}>
+                <div className="promo">
+                  <h2>On The Road Deal</h2>
+                  <p><Link to="/">View</Link></p>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6 swiperText">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p>Sed interdum mattis ligula a finibus. Suspendisse sodales velit nec fringilla convallis. Cras vitae lectus nec nibh molestie tempus et sed ipsum. Quisque lacinia nunc eget mattis feugiat. Nam lacinia tempus quam, et lobortis libero dignissim a. Mauris placerat, ipsum sed bibendum mattis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="swiperSlide3">
+            <div className="container-fluid swiperSlideInner">
+              <div className="container" style={{ position:'relative' }}>
+                <div className="promo">
+                  <h2>On The Road Deal</h2>
+                  <p><Link to="/">View</Link></p>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6 swiperText">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p>Sed interdum mattis ligula a finibus. Suspendisse sodales velit nec fringilla convallis. Cras vitae lectus nec nibh molestie tempus et sed ipsum. Quisque lacinia nunc eget mattis feugiat. Nam lacinia tempus quam, et lobortis libero dignissim a. Mauris placerat, ipsum sed bibendum mattis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="swiperSlide4">
+            <div className="container-fluid swiperSlideInner">
+              <div className="container" style={{ position:'relative' }}>
+                <div className="promo">
+                  <h2>On The Road Deal</h2>
+                  <p><Link to="/">View</Link></p>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6 swiperText">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p>Sed interdum mattis ligula a finibus. Suspendisse sodales velit nec fringilla convallis. Cras vitae lectus nec nibh molestie tempus et sed ipsum. Quisque lacinia nunc eget mattis feugiat. Nam lacinia tempus quam, et lobortis libero dignissim a. Mauris placerat, ipsum sed bibendum mattis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="swiperSlide5">
+            <div className="container-fluid swiperSlideInner">
+              <div className="container" style={{ position:'relative' }}>
+                <div className="promo">
+                  <h2>On The Road Deal</h2>
+                  <p><Link to="/">View</Link></p>
+                </div>
+                <div className="row">
+                  <div className="col-sm-6 swiperText">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p>Sed interdum mattis ligula a finibus. Suspendisse sodales velit nec fringilla convallis. Cras vitae lectus nec nibh molestie tempus et sed ipsum. Quisque lacinia nunc eget mattis feugiat. Nam lacinia tempus quam, et lobortis libero dignissim a. Mauris placerat, ipsum sed bibendum mattis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Swiper>
       </div>
     )
   }

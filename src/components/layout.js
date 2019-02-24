@@ -3,7 +3,7 @@ import { StaticQuery, Link, graphql } from "gatsby"
 import TwitterLogo from "../img/twitter.png"
 import FacebookLogo from "../img/facebook.png"
 import Navigation from "../components/navigation"
-
+import Headroom from 'react-headroom'
 export default ({ children }) => (    
     
   <StaticQuery
@@ -19,7 +19,9 @@ export default ({ children }) => (
     }    
     render={data => (      
         <div>
-            <Navigation />
+            <Headroom>
+                <Navigation />
+            </Headroom>
             {children}
             <div className="footer container-fluid">
                 <div className="container">
