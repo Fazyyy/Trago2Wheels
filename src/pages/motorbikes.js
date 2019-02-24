@@ -21,7 +21,7 @@ export default ({ data }) => {
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id} className="col-sm-4 bikeGallery">
                     <div class="bikeImage">
-                        <Link className="gallLink" to={node.fields.slug}>
+                        <Link to={node.fields.slug}>
                           <Img
                             fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                           />
