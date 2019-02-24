@@ -12,8 +12,8 @@ maxpower: "9.9"
 transmission: "5 speed manual"
 fueltank: "12"
 
-featuredImage: "./cafe-125.png"
-mainImage: "./classic-125-main.jpg"
+featuredImage: cafe-125.png
+mainImage: classic-125-main.jpg
 product: "scooter"
 ---
 

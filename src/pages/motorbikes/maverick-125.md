@@ -13,8 +13,8 @@ maxpower: "9.8"
 transmission: "5 speed manual"
 fueltank: "12"
 
-featuredImage: "./maverick-125.png"
-mainImage: "./classic-125-main.jpg"
+featuredImage: maverick-125.png
+mainImage: classic-125-main.jpg
 product: "motorbike"
 ---
 

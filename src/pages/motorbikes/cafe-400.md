@@ -13,8 +13,8 @@ maxpower: "27"
 transmission: "5 speed manual"
 fueltank: "12"
 
-featuredImage: "./cafe-400.png"
-mainImage: "./classic-125-main.jpg"
+featuredImage: cafe-400.png
+mainImage: classic-125-main.jpg
 product: "motorbike"
 ---
 
