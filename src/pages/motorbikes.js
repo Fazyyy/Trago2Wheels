@@ -21,9 +21,11 @@ export default ({ data }) => {
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id} className="col-sm-4 bikeGallery">
                     <div class="bikeImage">
-                      <Img
-                        fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-                      />
+                        <Link className="gallLink" to={node.fields.slug}>
+                          <Img
+                            fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                          />
+                        </Link>
                       <h3 style={{ textAlign: 'right' }}>
                           {node.frontmatter.title}
                       </h3>

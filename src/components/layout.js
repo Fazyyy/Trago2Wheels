@@ -38,7 +38,6 @@ export default ({ children }) => (
                             </ul>
                             <p>Trago2Wheels, Two Waters Foot, Liskeard PL14 6HY</p>
                             <p className="tel"><a href="tel:01579348877">01579 348877</a></p>
-                            <p>&copy; Copyright 2018-2019 Trago2Wheels All rights reserved</p>
                         </div>
                         <div className="col-sm-6">
                             <h2 className="formTitle">Sign up for News &amp; Events</h2>                    
@@ -69,6 +68,9 @@ export default ({ children }) => (
                             </div>
                         
                         </div>
+                    </div>
+                    <div className="row">
+                        <p>&copy; Copyright 2018-2019 Trago2Wheels All rights reserved</p>
                     </div>
                 </div>
             </div>
