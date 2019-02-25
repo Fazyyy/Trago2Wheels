@@ -1,4 +1,4 @@
----
+﻿---
 title: "Herald Café 125"
 oldprice: "2,499"
 newprice: "1,999"
@@ -20,3 +20,5 @@ product: "motorbike"
 A modern classic in a stylish cafe racer style, with low-mounted handlebars, cafe racer seat and elongated fuel tank which make the Cafe 125 look like it has been ridden straight out of a 1960's movie.
 
 Now modernised, but retaining the original rebellious style of the Caf 125, this bike sports a 12-litre fuel tank and LED halo light with LED indicators.
+
+This is the description, it is really interesting

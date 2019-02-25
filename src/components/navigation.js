@@ -36,7 +36,7 @@ export default class Navigation extends React.Component {
 
   render() {
     return (
-        <Navbar className="navigation__navbar navbar-fixed-top" light expand="md">
+        <Navbar className="navigation__navbar navbar-fixed-top gbg" light expand="md">
             <Container>
             <NavbarBrand href="/"><img src={Logo} alt="Trago2Wheels" /></NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -64,7 +64,7 @@ export default class Navigation extends React.Component {
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Training</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">News</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/">Events</Link>
                 </NavItem>
                 <NavItem>
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Contact</Link>

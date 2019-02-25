@@ -19,7 +19,7 @@ export default ({ data }) => {
       <div className="container spacing">
         <div className="row">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id} className="col-sm-4 bikeGallery">
+                <div key={node.id} className="col-sm-6 col-md-4 bikeGallery">
                     <div class="bikeImage">
                         <Link to={node.fields.slug}>
                           <Img

@@ -16,7 +16,7 @@ export default ({ data }) => {
   const bgStyle = {
     backgroundImage: `url(` + post.featuredImage.publicURL + `)`
   }
-  const voucher = (parseFloat(post.oldprice.replace(/,/g, '')) / 10).toFixed(2);
+  const voucher = 0; //(parseFloat(post.oldprice.replace(/,/g, '')) / 10).toFixed(2);
     return (
     <Layout>
         <div className="container-fluid motorbikeParallax" style={bgStyle} >
@@ -36,12 +36,12 @@ export default ({ data }) => {
               <h2>{post.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 <ul className="bikeInfo">
-                  <li>Weight: <span>{post.weight}kg</span></li>
-                  <li>Engine: <span>{post.Engine}</span></li>
-                  <li>Displacement: <span>{post.displacement}cc</span></li>
-                  <li>Max Power: <span>{post.maxpower}bhp</span></li>
-                  <li>Transmission: <span>{post.transmission}</span></li>
-                  <li>Fuel Tank: <span>{post.fueltank} Litres</span></li>
+                  <li>Weight <span>{post.weight}kg</span></li>
+                  <li>Engine <span>{post.Engine}</span></li>
+                  <li>Displacement <span>{post.displacement}cc</span></li>
+                  <li>Max Power <span>{post.maxpower}bhp</span></li>
+                  <li>Transmission <span>{post.transmission}</span></li>
+                  <li>Fuel Tank <span>{post.fueltank} Litres</span></li>
                 </ul>
                 <p style={{
                   textAlign:'right',

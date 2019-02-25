@@ -28,17 +28,12 @@ a:hover{
     color:inheret
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
     font-family:"Roboto";
     font-weight:700;
     color: #272635;
     font-size: 1.4em;
 }
-
-h2,h3,h4,h5,h6{
-    font-family:"Roboto Condensed";
-}
-
 
 .spacing{
     margin-top:4rem;
@@ -49,8 +44,90 @@ p {
     font-family: 'Montserrat';
 }
 
+.gbg {
+    background: #5c6395; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #5c6395 0%, #1c2858 41%, #5c6395 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', endColorstr='#5c6395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.homeIntro {
+    color: #fff;
+    padding: 4rem;
+}
+
 /*==================================
-    SIPER HOME STYLES
+    IMGLINKS HOME STYLES
+==================================*/
+
+.imgLinks .item {
+    border: 2px solid #fff;
+    min-height: 200px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.imgLinks .item a {
+    display:block;
+    background-image: url('../img/kawasaki-ninja.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 95px;
+    text-align: center;
+    font-family: Roboto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    position: relative;
+    z-index: 9;
+}
+
+.imgLinks .item a:after {
+    background: rgba(0,0,0,0.69);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    transition: 0.5s ease;
+}
+
+.imgLinks .item:hover a:after {
+    background: rgba(0,0,0,0.55);
+}
+
+.imgLinks .item:hover a {
+    transform: scale(1.06);
+}
+
+.imgLinks .item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    z-index: 10;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 2em;
+    transform: translate(-50%,-50%);
+}
+
+.imgLinks .item.scooter a {
+    background-image: url('../img/scooter-img.jpg');
+}
+
+/*==================================
+    SWIPER HOME STYLES
 ==================================*/
 
 .swiperMaster {
@@ -173,7 +250,6 @@ p {
 }
 
 .services .service {
-    background: #1c2858;
     padding: 20px 15px;
     border-radius: 15px;
     margin: 5px 0;
@@ -332,6 +408,7 @@ ul.bikeInfo {
 
 ul.bikeInfo li {
     padding: 2px 5px;
+    font-family: Montserrat;
 }
 
 ul.bikeInfo li:nth-child(even) {
@@ -428,7 +505,7 @@ h2.formTitle {
     }
 
     nav.navbar {
-        background: #1c2858;
+        box-shadow: 5px 0px 10px rgba(0,0,0,0.69);
     }
     body .navbar-light .navbar-nav .nav-link {
         font-family: Roboto;
@@ -440,3 +517,100 @@ h2.formTitle {
     body .navbar-light .navbar-nav .nav-link:hover {
         color: #dfd9e2;
     }
+
+/*==================================
+    RIDEOUT HOME STYLES
+==================================*/
+
+.rideoutHome {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/rideout.jpg');
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.rideoutHome:after {
+    position: absolute;
+    content: "";
+    background: #1c2858; /* Old browsers */
+    background: -moz-linear-gradient(left, #1c2858 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1c2858 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1c2858 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c2858', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.69;
+    z-index: 2;
+}
+
+.rideoutHome .container {
+    position: relative;
+    z-index: 3;
+}
+
+.rideoutHome h2 {
+    color: #fff;
+}
+
+.rideoutHome p {
+    color: #000;
+}
+
+.event-item {
+    margin: 15px;
+    background: rgba(255,255,255,0.9);
+    min-height: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 6px 10px rgba(0,0,0,0.6);
+}
+
+.event-item .imageSection {
+    position: relative;
+}
+
+.event-item .imageSection:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+
+.event-item:hover .imageSection:after {
+    background: rgba(0,0,0,0.8);
+}
+
+
+.event-item .imageSection h2 {
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+a.eventLink {
+    background: #1c2858;
+    color: #fff;
+    padding: 5px 15px;
+    font-family: 'Montserrat';
+    transition: 0.5s ease;
+}
+
+a.eventLink:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #fff;
+}
