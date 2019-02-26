@@ -26,6 +26,15 @@ export default ({ data }) => {
           <div className="bikeContainer">
             <div className="row">
               <div className="col-sm-6">
+                <div className="col" style={{ paddingTop: '15px' }}>
+                  <img src="https://source.unsplash.com/random/600x200" alt="" class="img-fluid" />                
+                </div>
+                <div className="col" style={{ paddingTop: '15px' }}>
+                  <img src="https://source.unsplash.com/random/600x200" alt="" class="img-fluid" />                
+                </div>
+                <div className="col" style={{ paddingTop: '15px' }}>
+                  <img src="https://source.unsplash.com/random/600x200" alt="" class="img-fluid" />                
+                </div>
               </div>
               <div className="col-sm-6">
               <h2>{post.title}</h2>

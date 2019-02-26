@@ -9,22 +9,27 @@ export default ({ data }) => (
   <Helmet>
     <title>Trago2Wheels - Events</title>
   </Helmet>
-  <div className="container-fluid rideoutHome">
-      <div className="container">
-          <div className="row">
-          <div className="col">
-              <h2>Upcoming Events</h2>
-          </div>
-          </div>
+  <div className="motorbikeBanner">
+    <div className="container">
+      <div class="row">
+        <div class="col">
+          <h1>Events</h1>
+          <p>View our upcoming events</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="container-fluid">
+      <div className="container" style={{ marginTop: '4rem', marginBottom: '4rem' }}>
           <div className="row">
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                       <div className="event-item">
                           <div className="imageSection">
                               <Img
                                   fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                               />
-                              <h2>{node.frontmatter.title}</h2>
+                              <h2 style={{ color: '#fff' }}>{node.frontmatter.title}</h2>
                           </div>
                           <div style={{ padding: '15px'}}>
                               <p style={{ textAlign: 'right' }}><small>{node.frontmatter.eventDate}</small></p>

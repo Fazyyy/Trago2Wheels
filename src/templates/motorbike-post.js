@@ -16,7 +16,7 @@ export default ({ data }) => {
   const bgStyle = {
     backgroundImage: `url(` + post.featuredImage.publicURL + `)`
   }
-  const voucher = 0; //(parseFloat(post.oldprice.replace(/,/g, '')) / 10).toFixed(2);
+  const voucher = (parseFloat(post.oldprice.replace(/,/g, '')) / 10).toFixed(2);
     return (
     <Layout>
         <div className="container-fluid motorbikeParallax" style={bgStyle} >
