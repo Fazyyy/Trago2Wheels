@@ -31,7 +31,7 @@ a:hover{
 h1,h2,h3,h4,h5,h6{
     font-family:"Roboto";
     font-weight:700;
-    color: #272635;
+    color: #fff;
     font-size: 1.4em;
 }
 
@@ -46,10 +46,10 @@ p {
 
 .gbg {
     background: #5c6395; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #5c6395 0%, #1c2858 41%, #5c6395 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', endColorstr='#5c6395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-linear-gradient(-45deg, #5c6395 0%, #1c2858 41%, #5c6395 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', endColorstr='#5c6395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .homeIntro {
@@ -126,6 +126,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', end
     background-image: url('../img/scooter-img.jpg');
 }
 
+.imgLinks .item.clothing a {
+    background-image: url('../img/clothingBanner.jpg');
+}
+
+.imgLinks .item.helmet a {
+    background-image: url('../img/helmet-image.jpg');
+}
+
+.imgLinks .item.tool a {
+    background-image: url('../img/tools-image.jpg');
+}
+
+.imgLinks .item.training a {
+    background-image: url('../img/training-image.jpg');
+}
+
 /*==================================
     SWIPER HOME STYLES
 ==================================*/
@@ -166,10 +182,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', end
     background-image: url('../img/kawasaki-ninja.jpg');
   }
 
-  .swiperSlide1,
-  .swiperSlide3 {
-      background-image: url("../img/biker-lean.jpg");
-  }
+    .swiperSlide1 {
+        background-image: url("../img/banner1.jpg");
+    }
+    .swiperSlide2 {
+        background-image: url("../img/banner5.jpg");
+    }
+    .swiperSlide3 {
+        background-image: url("../img/banner3.jpg");
+    }
+    .swiperSlide4 {
+        background-image: url("../img/banner4.jpg");
+    }
+    .swiperSlide5 {
+        background-image: url("../img/banner2.jpg");
+    }
+    .swiperSlide6 {
+        background-image: url("../img/banner6.jpg");
+    }
+    .swiperSlide7 {
+        background-image: url("../img/banner7.jpg");
+    }
 
   .swiperSlideInner {
       position: absolute;
@@ -223,7 +256,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', end
 
   .promo h2 {
       padding-top: 20px;
-      font-size: 1.6em;
   }
 
   .promo a {
@@ -265,7 +297,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', end
 ==================================*/
 
 .motorbikeBanner {
-    background-image: url('../img/motorbikeBanner.jpg');
+    background-image: url('../img/banner4.jpg');
     height: 40vh;
     width:100%;
     background-attachment: fixed;
@@ -526,7 +558,7 @@ h2.formTitle {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../img/rideout.jpg');
+    background-image: url('../img/banner4.jpg');
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -604,13 +636,18 @@ h2.formTitle {
 a.eventLink {
     background: #1c2858;
     color: #fff;
-    padding: 5px 15px;
+    padding: 10px 25px;
     font-family: 'Montserrat';
     transition: 0.5s ease;
 }
 
+a.eventLink.big {
+    font-size: 1.4em;
+    padding: 15px 50px;
+}
+
 a.eventLink:hover {
-    opacity: 0.7;
+    background: #5c6395;
     text-decoration: none;
     color: #fff;
 }
