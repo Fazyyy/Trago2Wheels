@@ -2,7 +2,7 @@
 title: "Herald Classic 125"
 oldprice: "2,499"
 newprice: "1,899"
-brand: "Herald"
+brand: "herald"
 model: "Classic 125"
 
 weight: "126"

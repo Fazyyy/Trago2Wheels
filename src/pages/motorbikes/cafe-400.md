@@ -2,7 +2,7 @@
 title: "Herald Café 400"
 oldprice: "4,499"
 newprice: "3,899"
-brand: "Herald"
+brand: "herald"
 model: "Cafe 400"
 
 weight: "165"

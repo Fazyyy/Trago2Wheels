@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
+import heraldLogo from '../img/herald.png'
 
 export default ({ data }) => {
   return (
@@ -26,6 +27,7 @@ export default ({ data }) => {
                 <div key={node.id} className="col-sm-6 col-md-4 bikeGallery">
                     <div class="bikeImage">
                         <Link to={node.fields.slug}>
+                        <img src={heraldLogo} className="brandLogo" alt={node.frontmatter.brand} />
                           <Img
                             fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                           />
@@ -58,6 +60,7 @@ query IndexQuery {
         id
         frontmatter {
           title
+          brand
           oldprice
           newprice
           featuredImage {

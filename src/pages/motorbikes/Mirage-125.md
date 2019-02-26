@@ -2,7 +2,7 @@
 title: "Herald Mirage 125"
 oldprice: "3,999"
 newprice: "2,699"
-brand: "Herald"
+brand: "herald"
 model: "Mirage 125"
 
 weight: "152"

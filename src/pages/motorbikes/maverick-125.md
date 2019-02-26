@@ -2,7 +2,7 @@
 title: "Herald Maverick 125"
 oldprice: "2,650"
 newprice: "2,149"
-brand: "Herald"
+brand: "herald"
 model: "Maverick 125"
 
 weight: "121"

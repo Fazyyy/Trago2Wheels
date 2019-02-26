@@ -2,7 +2,7 @@
 title: "Herald Scrambler 125"
 oldprice: "2,399"
 newprice: "2,149"
-brand: "Herald"
+brand: "herald"
 model: "Scrambler 125"
 
 weight: "126"

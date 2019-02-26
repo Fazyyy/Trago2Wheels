@@ -2,7 +2,7 @@
 title: "Herald Café 125"
 oldprice: "2,499"
 newprice: "1,999"
-brand: "Herald"
+brand: "herald"
 model: "Cafe 125"
 
 weight: "126"

@@ -2,7 +2,7 @@
 title: "Herald Classic 400"
 oldprice: "4,299"
 newprice: "3,849"
-brand: "Herald"
+brand: "herald"
 model: "Classic 400"
 
 weight: "165"
