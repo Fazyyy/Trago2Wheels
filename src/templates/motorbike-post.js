@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
+import { Helmet } from 'react-helmet'
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
@@ -19,6 +20,9 @@ export default ({ data }) => {
   const voucher = (parseFloat(post.oldprice.replace(/,/g, '')) / 10).toFixed(2);
     return (
     <Layout>
+      <Helmet>
+        <title>Trago2Wheels - {post.title}</title>
+      </Helmet>
         <div className="container-fluid motorbikeParallax" style={bgStyle} >
           <div className="container" style={{position:'relative', height:'100%'}}>
             <h1 style={titleStyle}>{post.title}</h1>

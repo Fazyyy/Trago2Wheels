@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import { Helmet } from 'react-helmet'
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
@@ -14,6 +15,9 @@ export default ({ data }) => {
   }
     return (
     <Layout>
+    <Helmet>
+      <title>Trago2Wheels - {post.title}</title>
+    </Helmet>
         <div className="container-fluid motorbikeParallax">
           <div className="container" style={{position:'relative', height:'100%'}}>
             <h1 style={titleStyle}>{post.title}</h1>

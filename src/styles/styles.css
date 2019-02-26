@@ -86,7 +86,7 @@ p {
 
 .imgLinks .item a {
     display:block;
-    background-image: url('../img/kawasaki-ninja.jpg');
+    background-image: url('../img/clothingBanner.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -718,6 +718,10 @@ a.eventLink:hover {
 
 .clothingItem {
     margin-bottom: 25px;
+}
+
+.clothingTitle {
+    color: #000;
 }
 
 .clothingItem h3 {

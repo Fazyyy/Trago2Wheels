@@ -9,27 +9,27 @@ class services extends React.Component {
         <div class="container-fluid imgLinks">
           <div className="row">
             <div className="col-sm-4 item">
-              <Link to="/motorbikes"></Link>
+              <Link to="/motorbikes/"></Link>
               <p>Motorbikes</p>
             </div>
             <div className="col-sm-4 item scooter">
-              <Link to="/scooters"></Link>
+              <Link to="/scooters/"></Link>
               <p>Scooters</p>
             </div>
             <div className="col-sm-4 item clothing">
-              <Link to="/"></Link>
+              <Link to="/clothing/"></Link>
               <p>Clothing</p>
             </div>
             <div className="col-sm-4 item helmet">
-              <Link to="/"></Link>
+              <Link to="/helmets/"></Link>
               <p>Helmets</p>
             </div>
             <div className="col-sm-4 item tool">
-              <Link to="/"></Link>
+              <Link to="/tools/"></Link>
               <p>Tools</p>
             </div>
             <div className="col-sm-4 item training">
-              <Link to="/"></Link>
+              <Link to="/training/"></Link>
               <p>Traning</p>
             </div>
           </div>

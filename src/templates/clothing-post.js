@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 import Banner from '../img/clothingBanner.jpg'
+import { Helmet } from 'react-helmet'
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
@@ -19,7 +20,10 @@ export default ({ data }) => {
   }
     return (
     <Layout>
-        <div className="container-fluid motorbikeParallax" style={bgStyle}>
+      <Helmet>
+        <title>Trago2Wheels - {post.title}</title>
+      </Helmet>
+        <div className="container-fluid motorbikeParallax" style={bgStyle} >
           <div className="container" style={{position:'relative', height:'100%'}}>
             <h1 style={titleStyle}>{post.title}</h1>
           </div>
@@ -33,7 +37,7 @@ export default ({ data }) => {
                 />              
               </div>
               <div className="col-sm-6" style={{ paddingBottom: '115px' }}>
-                <h2>{post.title}</h2>
+                <h2 className="clothingTitle">{post.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 <p>Available in: {post.color}</p>
                 <Link to="/" className="ccButton">Click &amp; Collect</Link>
