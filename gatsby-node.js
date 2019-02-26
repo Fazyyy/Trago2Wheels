@@ -44,7 +44,8 @@ exports.createPages = ({ graphql, actions }) => {
         createPage({
           path: edge.frontmatter.path,
           component: eventTemplate,
-          context: {}
+          context: {
+            slug: node.fields.slug,}
         })
       }
     })
