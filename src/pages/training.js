@@ -1,5 +1,4 @@
 import React from "react"
-import SwiperHome from "../components/swiperHome"
 import Layout from "../components/layout"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
@@ -11,7 +10,49 @@ export default ({ data }) => {
         <title>Trago2Wheels - Training</title>
         <meta name="description" content="Trago2Wheels is the leading supplier of motorbikes, scooters and accessories in South Wales and the South West." />
       </Helmet>
-        <SwiperHome />
+      <div className="motorbikeBanner">
+        <div className="container">
+          <div class="row">
+            <div class="col">
+              <h1>Training</h1>
+              <p>Get on the road safely</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row spacing">
+          <div className="col-sm-4">
+          </div>
+          <div className="col-sm-8">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
+          </div>
+        </div>
+        <div className="row spacing">
+          <div className="col-sm-8">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
+          </div>
+          <div className="col-sm-4">
+          </div>
+        </div>
+        <div className="row spacing">
+          <div className="col-sm-4">
+          </div>
+          <div className="col-sm-8">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
+          </div><div className="row spacing">
+          <div className="col-sm-8">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
+          </div>
+          <div className="col-sm-4">
+          </div>
+        </div>
+        </div>
+      </div>
     </Layout>
   )
 }

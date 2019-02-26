@@ -32,8 +32,6 @@ export default ({ data }) => {
                 </div>
             ))}
         </div>
-
-
       </div>
     </Layout>
   )

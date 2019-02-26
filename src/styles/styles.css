@@ -711,3 +711,80 @@ a.eventLink:hover {
     text-decoration: none;
     color: #fff;
 }
+
+/*==================================
+    CLOTHING STYLES
+==================================*/
+
+.clothingItem {
+    margin-bottom: 25px;
+}
+
+.clothingItem h3 {
+    display: block;
+    padding: 5px;
+    color: #1c2858;
+    font-weight: 700;
+    z-index: 2;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.clothingItem a {
+    text-decoration: none;
+}
+
+.clothingItem a:hover {
+    text-decoration: none;
+}
+
+.clothingItem .price {
+    font-size: 22px;
+    text-align: right;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.clothingItem .viewButton {
+    float: right;
+    display: block;
+    width: 120px;
+    background: #1c2858;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 700;
+    transition: 0.5s ease;
+    padding: 5px 0;
+}
+
+.clothingItem .viewButton:hover {
+    background: #5c6395;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ccButton {
+    background: #1c2858;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    padding: 25px 0;
+    border-radius: 50%;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s ease;
+    bottom: 15px;
+}
+
+.ccButton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #5c6395;
+}
