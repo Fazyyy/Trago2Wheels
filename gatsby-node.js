@@ -17,6 +17,9 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const postBike = path.resolve('./src/templates/motorbike-post.js')
   const eventTemplate = path.resolve('./src/templates/events-post.js')
+  const clothingTemplate = path.resolve('./src/templates/clothing-post.js')
+  const helmetTemplate = path.resolve('./src/templates/helmet-post.js')
+  const toolTemplate = path.resolve('./src/templates/tool-post.js')
   return graphql(`
     {
       allMarkdownRemark {
@@ -42,6 +45,30 @@ exports.createPages = ({ graphql, actions }) => {
               slug: node.fields.slug,
           },
         })
+      } else if (node.frontmatter.product === 'clothing') {
+        createPage({
+          path: node.fields.slug,
+          component: clothingTemplate,
+          context: {
+              slug: node.fields.slug,
+          },
+        })      
+      } else if (node.frontmatter.product === 'helmet') {
+        createPage({
+          path: node.fields.slug,
+          component: helmetTemplate,
+          context: {
+              slug: node.fields.slug,
+          },
+        })    
+      } else if (node.frontmatter.product === 'tool') {
+        createPage({
+          path: node.fields.slug,
+          component: toolTemplate,
+          context: {
+              slug: node.fields.slug,
+          },
+        })        
       } else {
         createPage({
           path: node.fields.slug,

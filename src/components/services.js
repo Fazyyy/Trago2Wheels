@@ -37,22 +37,22 @@ class services extends React.Component {
         <div className="container-fluid spacing text-center services">
           <div className="container">
             <div className="row">
-              <div className="col-sm">
-                <div className="service gbg">
+              <div className="col-md">
+                <div className="service gbg shadow">
                   <h2>Quality</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
                 </div>
               </div>
-              <div className="col-sm">
-                <div className="service gbg">
+              <div className="col-md">
+                <div className="service gbg shadow">
                   <h2>Quality</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
                 </div>
               </div>
-              <div className="col-sm">
-                <div className="service gbg">
+              <div className="col-md">
+                <div className="service gbg shadow">
                   <h2>Quality</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
