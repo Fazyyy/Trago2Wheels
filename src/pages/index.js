@@ -13,6 +13,7 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <title>Trago2Wheels - Home</title>
+        <meta name="description" content="Trago2Wheels is the leading supplier of motorbikes, scooters and accessories in South Wales and the South West." />
       </Helmet>
         <SwiperHome />
         <div className="homeIntro gbg">

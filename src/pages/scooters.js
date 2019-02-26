@@ -2,10 +2,15 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
+import { Helmet } from 'react-helmet'
 
 export default ({ data }) => {
   return (
     <Layout>
+      <Helmet>
+        <title>Trago2Wheels - Scooters</title>
+        <meta name="description" content="Trago2Wheels is the leading supplier of motorbikes, scooters and accessories in South Wales and the South West." />
+      </Helmet>
       <div className="motorbikeBanner">
         <div className="container">
           <div class="row">

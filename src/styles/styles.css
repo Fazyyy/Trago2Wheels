@@ -57,6 +57,16 @@ p {
     padding: 4rem;
 }
 
+.mapI {
+    padding: 0;
+    padding: 15px;
+    color: #fff;
+}
+
+.mapRow {
+    margin-bottom: 4rem;
+}
+
 /*==================================
     IMGLINKS HOME STYLES
 ==================================*/

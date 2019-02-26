@@ -15,8 +15,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const postBike = path.resolve('src/templates/motorbike-post.js')
-  const eventTemplate = path.resolve('src/templates/events-post.js')
+  const postBike = path.resolve('./src/templates/motorbike-post.js')
+  const eventTemplate = path.resolve('./src/templates/events-post.js')
   return graphql(`
     {
       allMarkdownRemark {
@@ -25,14 +25,16 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               slug
             }
+            frontmatter {
+              product
+            }
           }
         }
       }
     }
   `).then(result => {
-    result.data.allMarkdownRemark.edges.forEach(({ edge }) => {
-
-      if ((edge.node.frontmatter.product === 'motorbike') || ( edge.node.frontmatter.product === 'scooter' )) {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      if ((node.frontmatter.product === 'motorbike') || ( node.frontmatter.product === 'scooter' )) {
         createPage({
           path: node.fields.slug,
           component: postBike,
@@ -42,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
       } else {
         createPage({
-          path: edge.frontmatter.path,
+          path: node.fields.slug,
           component: eventTemplate,
           context: {
             slug: node.fields.slug,}

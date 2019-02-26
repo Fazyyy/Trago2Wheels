@@ -22,14 +22,12 @@ class Map extends Component {
  ));
 
    return(
-      <div class="container spacing">
-        <div className="row">
-          <div className="col-sm-4">
-            <div>
-              <h2>Trago2Wheels, Newton Abbot</h2>
+      <div className="container spacing">
+        <div className="row mapRow">
+            <div className="col-sm-4 mapI gbg">
+              <h2>Newton Abbot</h2>
             </div>
-          </div>
-          <div className="col-sm-8">
+          <div className="col-sm-8" style={{ padding: '0' }}>
             <GoogleMapOne
             containerElement={ <div style={{ height: `250px`, width: '100%' }} /> }
             mapElement={ <div style={{ height: `100%` }} /> }
@@ -37,16 +35,14 @@ class Map extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-8">
+          <div className="col-sm-8" style={{ padding: '0' }}>
             <GoogleMapTwo
             containerElement={ <div style={{ height: `250px`, width: '100%' }} /> }
             mapElement={ <div style={{ height: `100%` }} /> }
             />
           </div>
-          <div className="col-sm-4">
-            <div>
-              <h2>Trago2Wheels, Merthyr Tydfil</h2>
-            </div>
+          <div className="col-sm-4 mapI gbg">
+            <h2>Merthyr Tydfil</h2>
           </div>
         </div>
       </div>

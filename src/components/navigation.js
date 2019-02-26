@@ -67,7 +67,7 @@ export default class Navigation extends React.Component {
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/events">Events</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks disabled" to="/motorbikes/">Contact</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/contact/">Contact</Link>
                 </NavItem>
                 </Nav>
             </Collapse>
