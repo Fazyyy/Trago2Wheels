@@ -353,6 +353,11 @@ p {
     transition: 0.5s ease;
 }
 
+.services .service img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .services h2 {
     color: #fff;
 }
@@ -815,4 +820,8 @@ a.eventLink:hover {
     text-decoration: none;
     color: #fff;
     background: #5c6395;
+}
+
+.bikeContainer h2 {
+    color: #000;
 }

@@ -39,21 +39,21 @@ class services extends React.Component {
             <div className="row">
               <div className="col-md">
                 <div className="service gbg shadow">
-                  <h2>Quality</h2>
+                  <h2>Price</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
                 </div>
               </div>
               <div className="col-md">
                 <div className="service gbg shadow">
-                  <h2>Quality</h2>
+                  <h2>Choice</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
                 </div>
               </div>
               <div className="col-md">
                 <div className="service gbg shadow">
-                  <h2>Quality</h2>
+                  <h2>Value</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
                 </div>
