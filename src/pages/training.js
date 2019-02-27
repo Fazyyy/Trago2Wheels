@@ -22,35 +22,64 @@ export default ({ data }) => {
       </div>
       <div className="container">
         <div className="row spacing">
-          <div className="col-sm-4">
+          <div className="col-sm-2">
           </div>
           <div className="col-sm-8">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
           </div>
         </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-8 tPara tPara1"></div>
+        </div>
+      </div>
+
+      <div className="container">
         <div className="row spacing">
+          <div className="col-sm-2">
+          </div>
           <div className="col-sm-8">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
           </div>
-          <div className="col-sm-4">
-          </div>
         </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-4"></div>
+          <div className="col-sm-8 tPara tPara2"></div>
+        </div>
+      </div>
+
+      <div className="container">
         <div className="row spacing">
-          <div className="col-sm-4">
+          <div className="col-sm-2">
           </div>
           <div className="col-sm-8">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
-          </div><div className="row spacing">
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-8 tPara tPara3"></div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row spacing">
+          <div className="col-sm-2">
+          </div>
           <div className="col-sm-8">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, tellus sed auctor condimentum, ante quam condimentum sem, et consequat quam purus in arcu. Nunc arcu nisl, iaculis eget interdum vel, dignissim ac tortor. Nulla ac auctor enim. Phasellus elit velit, eleifend ac euismod non, tempor vel urna. Donec porta ligula vel diam tincidunt sagittis. Aliquam et convallis leo. Quisque consequat metus vitae nulla volutpat porttitor. Sed quis nisl elit. </p>
           </div>
-          <div className="col-sm-4">
-          </div>
-        </div>
         </div>
       </div>
     </Layout>

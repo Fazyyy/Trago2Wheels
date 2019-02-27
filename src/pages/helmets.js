@@ -23,7 +23,7 @@ export default ({ data }) => {
       <div className="container spacing">
         <div className="row">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id} className="col-sm-6 col-md-4 clothingItem">
+                <div key={node.id} className="col-sm-6 col-md-3 clothingItem">
                     <Link to={node.fields.slug}>
                     <Img fluid={node.frontmatter.productImage.childImageSharp.fluid} />
                         <h3 style={{ textAlign: 'right' }}>
@@ -35,8 +35,6 @@ export default ({ data }) => {
                 </div>
             ))}
         </div>
-
-
       </div>
     </Layout>
   )

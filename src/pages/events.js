@@ -26,9 +26,7 @@ export default ({ data }) => (
                   <div className="col-md-4">
                       <div className="event-item">
                           <div className="imageSection">
-                              <Img
-                                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-                              />
+                              <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
                               <h2 style={{ color: '#fff' }}>{node.frontmatter.title}</h2>
                           </div>
                           <div style={{ padding: '15px'}}>

@@ -3,6 +3,7 @@
 title: "Summer Ride Out"
 product: "event"
 featuredImage: "./rideoutimg.jpg"
+eventImage: "./eventBike.jpg"
 eventDate: "2019-06-15"
 
 ---

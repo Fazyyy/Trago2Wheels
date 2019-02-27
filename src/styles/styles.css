@@ -157,6 +157,30 @@ p {
 }
 
 /*==================================
+    TRAINING STYLES
+==================================*/
+
+.tPara {
+    background-attachment: fixed;
+    height: 280px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.tPara1 {
+    background-image: url('../img/tpara1.jpg');
+}
+
+.tPara2 {
+    background-image: url('../img/tpara2.jpg');
+}
+
+.tPara3 {
+    background-image: url('../img/tpara3.jpg');
+}
+
+/*==================================
     SWIPER HOME STYLES
 ==================================*/
 

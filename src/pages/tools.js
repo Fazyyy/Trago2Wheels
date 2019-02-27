@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Helmet } from 'react-helmet'
+import Img from 'gatsby-image'
 
 export default ({ data }) => {
   return (
@@ -22,12 +23,14 @@ export default ({ data }) => {
       <div className="container spacing">
         <div className="row">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id} className="col-sm-6 col-md-4">
+                <div key={node.id} className="col-sm-6 col-md-3 clothingItem">
                     <Link to={node.fields.slug}>
+                    <Img fluid={node.frontmatter.productImage.childImageSharp.fluid} />
                         <h3 style={{ textAlign: 'right' }}>
                             {node.frontmatter.title}
                         </h3>
-                        <p className="bikeRRP">£{node.frontmatter.price}</p>
+                        <p className="price">£{node.frontmatter.price}</p>
+                        <p className="viewButton">View</p>
                     </Link>
                 </div>
             ))}
@@ -46,6 +49,13 @@ query toolQuery {
         frontmatter {
           title
           price
+          productImage {
+            childImageSharp {
+              fluid(maxWidth:600) {
+                ...GatsbyImageSharpFluid_tracedSVG
+              }
+            }
+          }
         }
         fields {
           slug

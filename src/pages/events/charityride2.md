@@ -3,6 +3,7 @@
 title: "B-Mad Festival"
 product: "event"
 featuredImage: "./festival.jpg"
+eventImage: "./eventBike.jpg"
 eventDate: "2019-05-03"
 
 ---
