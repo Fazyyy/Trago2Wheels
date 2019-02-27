@@ -3,6 +3,11 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Helmet } from 'react-helmet'
 import Img from 'gatsby-image'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faCalendarAlt )
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
@@ -35,7 +40,7 @@ export default ({ data }) => {
               </div>
               <div className="col-sm-6">
                 <h2>{post.title}</h2>
-                <p><small>{post.eventDate}</small></p>
+                <p><small><FontAwesomeIcon icon="calendar-alt" /> {post.ezDate}</small></p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
               </div>
             </div>
@@ -52,6 +57,7 @@ query($slug: String!) {
             frontmatter {
               title
               eventDate
+              ezDate
               featuredImage {
                 publicURL
                 name

@@ -4,6 +4,12 @@ import TwitterLogo from "../img/twitter.png"
 import FacebookLogo from "../img/facebook.png"
 import Navigation from "../components/navigation"
 import Headroom from 'react-headroom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faMapMarkerAlt, faPhone )
+
 export default ({ children }) => (    
     
   <StaticQuery
@@ -31,13 +37,13 @@ export default ({ children }) => (
                                 <li><a className="twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/trago2wheels"><img src={TwitterLogo} alt="Twitter Logo" /></a></li>
                                 <li><a className="facebook" target="_blank" rel="noopener noreferrer" href="https://en-gb.facebook.com/Trago2Wheels/"><img src={FacebookLogo} alt="Twitter Logo" /></a></li>
                             </ul>
-                            <ul className="policies">
+                            <p style={{ margin: '15px 0 0 0' }}><FontAwesomeIcon icon="map-marker-alt" />  Trago2Wheels, Two Waters Foot, Liskeard PL14 6HY</p>
+                            <p className="tel"><FontAwesomeIcon icon="phone" /> <a href="tel:01579348877">01579 348877</a></p>
+                            <ul className="policies" style={{ marginTop: '15px' }}>
                                 <li><Link to="/">Cookies Policy</Link></li>
                                 <li><Link to="/">GDPR Policy</Link></li>
                                 <li><Link to="/">Privacy Policy</Link></li>
                             </ul>
-                            <p>Trago2Wheels, Two Waters Foot, Liskeard PL14 6HY</p>
-                            <p className="tel"><a href="tel:01579348877">01579 348877</a></p>
                         </div>
                         <div className="col-sm-6">
                             <h2 className="formTitle">Sign up for News &amp; Events</h2>                    

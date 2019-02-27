@@ -5,6 +5,7 @@ product: "event"
 featuredImage: "./rideoutimg.jpg"
 eventImage: "./eventBike.jpg"
 eventDate: "2019-06-15"
+ezDate: "15th June '19"
 
 ---
 

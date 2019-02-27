@@ -3,6 +3,11 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faCalendarAlt )
 
 export default ({ data }) => (
   <Layout>
@@ -30,7 +35,7 @@ export default ({ data }) => (
                               <h2 style={{ color: '#fff' }}>{node.frontmatter.title}</h2>
                           </div>
                           <div style={{ padding: '15px'}}>
-                              <p style={{ textAlign: 'right' }}><small>{node.frontmatter.eventDate}</small></p>
+                              <p style={{ textAlign: 'right' }}><small><FontAwesomeIcon icon="calendar-alt" /> {node.frontmatter.ezDate}</small></p>
                               <p>{node.excerpt}</p>
                               <p style={{ float:'right' }}><Link className="eventLink" to={node.fields.slug}>View</Link></p>
                           </div>
@@ -52,6 +57,7 @@ query eventPageQuery {
         frontmatter {
           title
           eventDate
+          ezDate
           featuredImage {
             childImageSharp {
               fluid(maxWidth:600) {

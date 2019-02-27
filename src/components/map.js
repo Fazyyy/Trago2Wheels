@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap } from 'react-google-maps';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faMapMarkerAlt, faPhone )
 
 class Map extends Component {
 
@@ -16,16 +21,18 @@ class Map extends Component {
    const GoogleMapTwo = withGoogleMap(props => (
     <GoogleMap
       defaultCenter = { { lat: 51.7489784, lng: -3.3976439 } }
-      defaultZoom = { 16 }
+      defaultZoom = { 18 }
     >
     </GoogleMap>
  ));
 
    return(
-      <div className="container spacing">
+      <div className="container spacing mapsBlock">
         <div className="row mapRow">
             <div className="col-sm-4 mapI gbg">
-              <h2>Newton Abbot</h2>
+              <h2><FontAwesomeIcon icon="map-marker-alt" /> Newton Abbot</h2>
+                <p>Just off the A38<br />Newton Abbot, <br />TQ12 6JD</p>
+              <p><FontAwesomeIcon icon="phone" /> <a href="tel:+441626821111">01626 821111</a></p>
             </div>
           <div className="col-sm-8" style={{ padding: '0' }}>
             <GoogleMapOne
@@ -42,7 +49,11 @@ class Map extends Component {
             />
           </div>
           <div className="col-sm-4 mapI gbg">
-            <h2>Merthyr Tydfil</h2>
+            <h2><FontAwesomeIcon icon="map-marker-alt" /> Merthyr Tydfil</h2>
+            <address>
+                <p>Swansea Road, <br />Merthyr Tydfil, <br />CF48 1HT</p>
+              </address>
+              <p><FontAwesomeIcon icon="phone" /> <a href="tel:+441685707500">01685 707500</a></p>
           </div>
         </div>
       </div>
