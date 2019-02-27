@@ -1,17 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 import SwiperHome from "../components/swiperHome"
 import Layout from "../components/layout"
 import Services from "../components/services"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
 import Map from '../components/map'
-import Img from 'gatsby-image'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
-
-library.add( faCalendarAlt )
 
 export default ({ data }) => {
   return (
