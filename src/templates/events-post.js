@@ -27,9 +27,9 @@ export default ({ data }) => {
       <Helmet>
         <title>Trago2Wheels - {post.title}</title>
       </Helmet>
-        <div className="container-fluid motorbikeParallax" style={bgStyle} >
-          <div className="container" style={{position:'relative', height:'100%'}}>
-            <h1 style={titleStyle}>{post.title}</h1>
+        <div className="container-fluid motorbikeParallax" style={ bgStyle } >
+          <div className="container" style={{ position:'relative', height:'100%' }}>
+            <h1 style={ titleStyle }>{ post.title }</h1>
           </div>
         </div>
         <div className="container spacing single">
@@ -40,7 +40,7 @@ export default ({ data }) => {
               </div>
               <div className="col-sm-6">
                 <h2>{post.title}</h2>
-                <p><FontAwesomeIcon icon="calendar-alt" /> {post.ezDate}</p>
+                <p><FontAwesomeIcon icon="calendar-alt" /> { post.ezDate }</p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
               </div>
             </div>
