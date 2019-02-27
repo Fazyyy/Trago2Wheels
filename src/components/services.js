@@ -34,7 +34,7 @@ class services extends React.Component {
             </div>
             <div className="col-sm-4 item training">
               <Link to="/training/"></Link>
-              <p>Traning</p>
+              <p>Training</p>
             </div>
           </div>
         </div>
