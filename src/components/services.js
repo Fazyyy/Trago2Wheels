@@ -38,24 +38,24 @@ class services extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md">
-                <div className="service gbg shadow">
-                  <h2>Price</h2>
+                <div className="service gbg shadow" style={{ height: '100%' }}>
+                  <h2>Quality</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
+                  <p>We pride ourselves on our reputation of providing the the highest quality Motorbikes, Scooters, Clothing, Tools and Accessories. Our reputation is built on our values as a company and we make every effort possible to maintain this standard.</p>
                 </div>
               </div>
               <div className="col-md">
-                <div className="service gbg shadow">
+                <div className="service gbg shadow" style={{ height: '100%' }}>
                   <h2>Choice</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
+                  <p>From brand new 650cc Motorbikes to high quality gloves, we stock everything you need to get on the road legally and safely. Our website contains an ever growing list of bikes, tools and clothes but to see an even greater variety, why not pop into one of our brick &amp; mortar stores?</p>
                 </div>
               </div>
               <div className="col-md">
-                <div className="service gbg shadow">
+                <div className="service gbg shadow" style={{ height: '100%' }}>
                   <h2>Value</h2>
                   <img src={serviceIcon} alt="Icon" className="img-center" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dapibus risus. Donec convallis hendrerit ligula sodales vestibulum. Mauris vel neque aliquam, aliquet nulla eu, pulvinar quam.</p>
+                  <p>We buy in bulk directly from the manufacturer for many of our items meaning that we're able to pass the savings on to our customers, meaning you'll get high quality brand new products and majorly discounted prices along with peace of mind.</p>
                 </div>
               </div>
             </div>
