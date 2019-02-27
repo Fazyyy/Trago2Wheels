@@ -40,7 +40,7 @@ export default ({ data }) => {
               </div>
               <div className="col-sm-6">
                 <h2>{post.title}</h2>
-                <p><small><FontAwesomeIcon icon="calendar-alt" /> {post.ezDate}</small></p>
+                <p><FontAwesomeIcon icon="calendar-alt" /> {post.ezDate}</p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
               </div>
             </div>
