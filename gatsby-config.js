@@ -3,10 +3,8 @@ const path = require(`path`)
 module.exports = {
     siteMetadata: {
         title: `Trago2Wheels`,
-        siteURL: `https://t2w.netlify.com/`,
     },
     plugins: [
-        `gatsby-plugin-sitemap`,
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-plugin-google-fonts`,

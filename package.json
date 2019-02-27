@@ -22,7 +22,6 @@
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sharp": "^2.0.21",
-    "gatsby-plugin-sitemap": "^2.0.6",
     "gatsby-remark-copy-linked-files": "^2.0.9",
     "gatsby-remark-images": "^3.0.4",
     "gatsby-source-filesystem": "^2.0.21",
