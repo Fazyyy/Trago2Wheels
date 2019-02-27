@@ -32,69 +32,7 @@ export default ({ data }) => {
           </div>
         </div>
         <Services />
-        <div className="container-fluid rideoutHome">
-            <div className="container">
-                <div className="row">
-                <div className="col">
-                    <h2>Upcoming Events</h2>
-                </div>
-                </div>
-                <div className="row">
-                    {data.allMarkdownRemark.edges.map(({ node }) => (
-                        <div className="col-md-4">
-                            <div className="event-item">
-                                <div className="imageSection">
-                                    <Img
-                                        fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-                                    />
-                                    <h2>{node.frontmatter.title}</h2>
-                                </div>
-                                <div style={{ padding: '15px'}}>
-                                    <p style={{ textAlign: 'right' }}><small><FontAwesomeIcon icon="calendar-alt" /> {node.frontmatter.ezDate}</small></p>
-                                    <p>{node.excerpt}</p>
-                                    <p style={{ float:'right' }}><Link className="eventLink" to={node.fields.slug}>View</Link></p>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-                <div className="row" style={{ marginTop: '25px' }}>
-                      <div className="col">
-                      <p style={{ float:'right' }}><Link className="eventLink big" to="/">View All</Link></p>
-                      </div>
-                </div>
-            </div>
-        </div>
         <Map />
     </Layout>
   )
 }
-
-
-export const eventQuery = graphql`
-query eventsQuery {
-  allMarkdownRemark(filter:{frontmatter: {product: {regex: "/event/"}}}, sort: { fields: [frontmatter___eventDate], order: ASC }) {
-    edges {
-      node {
-        id
-        frontmatter {
-          title
-          eventDate
-          ezDate
-          featuredImage {
-            childImageSharp {
-              fluid(maxWidth:600) {
-                ...GatsbyImageSharpFluid_tracedSVG
-              }
-            }
-          }
-        }
-        fields {
-          slug
-        }
-        excerpt
-      }
-    }
-  }
-}
-`
