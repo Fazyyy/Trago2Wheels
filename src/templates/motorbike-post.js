@@ -3,11 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
-
-library.add( faInfoCircle )
 
 export default ({ data }) => {
   const post = data.markdownRemark.frontmatter;
