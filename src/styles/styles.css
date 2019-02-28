@@ -321,7 +321,7 @@ ul.swipeList {
   }
 
   .swiperText {
-      padding-top: 50%;
+      padding-top: 150px;
       transform: translate(0,-50%);
       color: #fff;
       z-index: 9;
