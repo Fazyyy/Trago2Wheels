@@ -23,7 +23,6 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-mOUesGzkeyfaEFMYdsckrf7xr3iPP9U&callback=initMap" async defer></script>
         {props.postBodyComponents}
       </body>
     </html>

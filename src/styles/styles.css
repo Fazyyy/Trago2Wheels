@@ -63,6 +63,14 @@ p {
     color: #fff;
 }
 
+.mapI h2 {
+    margin-top: 15px;
+}
+
+.mapI a {
+    margin-bottom: 25px;
+}
+
 .mapRow {
     margin-bottom: 4rem;
 }
@@ -80,6 +88,16 @@ p {
 
 .shadow {
     box-shadow: 2px 6px 6px rgba(0,0,0,0.6);
+}
+
+@media(max-width:560px) {
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .footer h2 {
+        margin-top: 15px;
+    }
 }
 
 /*==================================
@@ -199,12 +217,30 @@ p {
     position: relative;
 }
 
+ul.swipeList {
+    list-style-type: none;
+}
+
 .swiper-container {
     width: 100%;
     height: 100%;
     background: #131313;
     position: relative;
   }
+
+  .swipeLink {
+      background: #1c2858;
+      padding: 10px 15px;
+      color: #fff;
+      font-size: 18px;
+      transition: 0.5s ease;
+  }
+
+  .swipeLink:hover {
+    background: #5c6395;
+    text-decoration: none;
+    color: #fff;
+}
 
   .swiper-slide {
     text-align: center;
@@ -573,6 +609,24 @@ ul.bikeInfo li span {
       list-style-type: none;
   }
 
+  .footer .socials li a {
+      color: #fff;
+      font-size: 26px;
+      transition: 0.5s ease;
+  }
+
+.footer .socials li:hover a {
+    color: rgb(92, 99, 149);
+}
+
+.footer .socials li.facebook:hover a {
+    color:#3b5998 !important;
+}
+
+.footer .socials li.twitter:hover a {
+    color: #38A1F3 !important;
+}
+
   .footer .socials li, .footer .policies li {
       display: inline-block;
       padding-right: 10px;
@@ -587,21 +641,28 @@ ul.bikeInfo li span {
     text-decoration: none;
 }
 
+.footer ul.times {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul.times li span {
+    width: 50px;
+    display: inline-block;
+    font-weight: bold;
+}
+
 /*==================================
     FOOTER FORM STYLES
 ==================================*/
 
-h2.formTitle {
-    text-align: right;
-}
 #mc_embed_signup_scroll input {
-    width: 50%;
     min-width: 280px;
     margin-top: 5px;
     border: none;
     padding: 5px;
     font-family: Roboto;
-    float: right;
     display: block;
     background: #e8e9f3;
     transition: 0.5s ease;
@@ -622,6 +683,23 @@ h2.formTitle {
 #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
     background: #dfd9e2;
     color: #272635;
+}
+
+.qLinks {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.qLinks a {
+    color: #fff;
+    transition: 0.5s ease;
+    font-family: Montserrat;
+}
+
+.qLinks a:hover {
+    color: #5c6395;
+    text-decoration: none;
 }
 
 /*==================================

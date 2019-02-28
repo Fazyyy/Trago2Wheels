@@ -15,7 +15,7 @@ class MapComponent extends React.Component {
                 <div className="col-sm-4 mapI gbg">
                     <h2><FontAwesomeIcon icon="map-marker-alt" /> Newton Abbot</h2>
                     <p>Just off the A38<br />Newton Abbot, <br />TQ12 6JD</p>
-                    <p><FontAwesomeIcon icon="phone" /> <a href="tel:+441626821111">01626 821111</a></p>
+                    <p><FontAwesomeIcon icon="phone" rotation={90} /> <a href="tel:+441626821111">01626 821111</a></p>
                 </div>
                 <div className="col-sm-8" style={{ padding: '0', margin: '0'}}>
                     <Map google={this.props.google}
@@ -42,7 +42,7 @@ class MapComponent extends React.Component {
                     <address>
                         <p>Swansea Road, <br />Merthyr Tydfil, <br />CF48 1HT</p>
                     </address>
-                    <p><FontAwesomeIcon icon="phone" /> <a href="tel:+441685707500">01685 707500</a></p>
+                    <p><FontAwesomeIcon icon="phone" rotation={90} /> <a href="tel:+441685707500">01685 707500</a></p>
                 </div>
             </div>
         </div>

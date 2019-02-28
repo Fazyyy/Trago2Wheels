@@ -1,14 +1,13 @@
 import React from "react"
 import { StaticQuery, Link, graphql } from "gatsby"
-import TwitterLogo from "../img/twitter.png"
-import FacebookLogo from "../img/facebook.png"
 import Navigation from "../components/navigation"
 import Headroom from 'react-headroom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faMapMarkerAlt, faPhone, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
-library.add( faMapMarkerAlt, faPhone )
+library.add( faMapMarkerAlt, faPhone, faInfoCircle, faFacebookF, faTwitter )
 
 export default ({ children }) => (    
     
@@ -32,21 +31,55 @@ export default ({ children }) => (
             <div className="footer container-fluid">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-6">
+                        <div className="col">
                             <ul className="socials">
-                                <li><a className="twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/trago2wheels"><img src={TwitterLogo} alt="Twitter Logo" /></a></li>
-                                <li><a className="facebook" target="_blank" rel="noopener noreferrer" href="https://en-gb.facebook.com/Trago2Wheels/"><img src={FacebookLogo} alt="Twitter Logo" /></a></li>
-                            </ul>
-                            <p style={{ margin: '15px 0 0 0' }}><FontAwesomeIcon icon="map-marker-alt" />  Trago2Wheels, Two Waters Foot, Liskeard PL14 6HY</p>
-                            <p className="tel"><FontAwesomeIcon icon="phone" /> <a href="tel:01579348877">01579 348877</a></p>
-                            <ul className="policies" style={{ marginTop: '15px' }}>
-                                <li><Link to="/">Cookies Policy</Link></li>
-                                <li><Link to="/">GDPR Policy</Link></li>
-                                <li><Link to="/">Privacy Policy</Link></li>
+                                <li className="twitter">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/trago2wheels">
+                                    <FontAwesomeIcon icon= {[ 'fab', 'twitter' ]} />
+                                    </a>
+                                </li>
+                                <li className="facebook">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://en-gb.facebook.com/Trago2Wheels/">
+                                        <FontAwesomeIcon icon= {[ 'fab', 'facebook-f' ]} />
+                                    </a>
+                                </li>
+                                <li>
+                                    <Link to="/contact/"><FontAwesomeIcon icon="map-marker-alt" /></Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact/"><FontAwesomeIcon icon="phone" rotation={90} /></Link>
+                                </li>
                             </ul>
                         </div>
-                        <div className="col-sm-6">
-                            <h2 className="formTitle">Sign up for News &amp; Events</h2>                    
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-6 col-md-4">
+                            <h2>Opening Times</h2>
+                            <ul className="times">
+                                <li><span>Mon</span>0900 - 2000</li>
+                                <li><span>Tue</span>0900 - 2000</li>
+                                <li><span>Wed</span>0900 - 2000</li>
+                                <li><span>Thur</span>0900 - 2000</li>
+                                <li><span>Fri</span>0900 - 2000</li>
+                                <li><span>Sat</span>0900 - 1800</li>
+                                <li><span>Sun</span>1000 - 1600</li>
+                            </ul>
+                        </div>
+                        <div className="hidden-xs col-sm-6 col-md-4">
+                        <h2>QuickLinks</h2>
+                            <ul className="qLinks">
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/motorbikes/">Motorbikes</Link></li>
+                                <li><Link to="/scooters/">Scooters</Link></li>
+                                <li><Link to="/clothing/">Clothing</Link></li>
+                                <li><Link to="/tools/">Tools</Link></li>
+                                <li><Link to="/events/">Events</Link></li>
+                                <li><Link to="/contact/">Contact</Link></li>
+                            </ul>
+                        </div>
+                        <div className="col-sm-12 col-md-4">
+                            <h2 className="formTitle">Newsletter</h2>                    
+                            <p>Sign up to be the first to hear about the latest news and events at Trago2Wheels.</p>
                             <div id="mc_embed_signup">
                                 <form action="https://trago.us20.list-manage.com/subscribe/post?u=71e927d89bfcabbe8d580dbf2&amp;id=64904a42d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                                     <div id="mc_embed_signup_scroll">
@@ -76,7 +109,18 @@ export default ({ children }) => (
                         </div>
                     </div>
                     <div className="row">
-                        <p>&copy; Copyright 2018-2019 Trago2Wheels All rights reserved</p>
+                        <div className="col">
+                            <ul className="policies" style={{ marginTop: '15px' }}>
+                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> Cookies Policy</Link></li>
+                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> GDPR Policy</Link></li>
+                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> Privacy Policy</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <p>&copy; Copyright 2018-2019 Trago2Wheels All rights reserved</p>
+                        </div>
                     </div>
                 </div>
             </div>
