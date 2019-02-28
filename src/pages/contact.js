@@ -4,7 +4,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
 import Map from '../components/map'
 
-export default ({ data }) => {
+export default () => {
   return (
     <Layout>
         <Helmet>
@@ -24,9 +24,32 @@ export default ({ data }) => {
             <div className="container">
                 <div className="row">
                     <div className="col text-center">
-                        <h1>Trago2Wheels</h1>
-                        <p>Here at Trago2Wheels, we are dedicated to helping our customers find the best bike to suit your individual riding ability. At Trago2Wheels, you will find a wide range of bikes from affordable 50cc mopeds to 125cc motorbikes. We provide high quality images and reviews of every motorbike on our site to make choosing your next purchase simple.</p>
+                        <h1>Contact Us</h1>
+                        <p>If you have any queries, suggestions or feedback we'd love to hear from you! Use the form below to let us know your thoughts or, alternatively, use the branch details below to find the details of your closest branch and pop in or just give them a call. </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div className="container contactForm spacing">
+            <div className="row">
+                <div className="col">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <p>
+                            <label>Your Name: <input type="text" name="name" /></label>   
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
                 </div>
             </div>
         </div>

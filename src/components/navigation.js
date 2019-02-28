@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from "react"
+import Link from "gatsby-link"
 import Logo from "../img/trago-logo.png"
 import {
   Collapse,
@@ -9,7 +9,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem
-} from "reactstrap";
+} from "reactstrap"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faMapMarkerAlt )
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -67,7 +72,7 @@ export default class Navigation extends React.Component {
                     <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/events">Events</Link>
                 </NavItem>
                 <NavItem>
-                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/contact/">Contact</Link>
+                    <Link onClick={this.closeNavbar} className="nav-link navigation__navlinks" to="/contact/">Contact <FontAwesomeIcon icon="map-marker-alt" /></Link>
                 </NavItem>
                 </Nav>
             </Collapse>
