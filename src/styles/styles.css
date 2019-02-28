@@ -978,3 +978,10 @@ CONTACT PAGE FORM
 .contactFormButton:hover {
     background: #5c6395;
 }
+
+@media(max-width: 560px) {
+    .map {
+        height: 300px !important;
+        position: relative !important;
+    }
+}

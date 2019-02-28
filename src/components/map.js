@@ -28,7 +28,7 @@ class MapComponent extends React.Component {
                 </div>
             </div>
             <div className="row">
-                <div className="col-sm-8">
+                <div className="col-sm-8" style={{ padding: '0' }}>
                     <Map google={this.props.google}
                         style={{width: '100%', height: '100%', position: 'relative'}}
                         initialCenter={{ lat: 51.7489784, lng: -3.3976439 }}

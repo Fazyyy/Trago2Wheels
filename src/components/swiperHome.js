@@ -31,15 +31,7 @@ class swiperHome extends React.Component {
                 <div className="row">
                   <div className="col-sm-6 swiperText">
                     <h2>On The Road with Trago2Wheels</h2>
-                    <p>Trago2Wheels is the only locations that offers you the "On The Road" package at a great price when bought with any bike in our extensive range of Scooters, Motorbikes and Scramblers. The On the Road package comes with the following benefits making it unbelievable value:</p>
-                    <ul className="swipeList">
-                      <li>Item 1</li>
-                      <li>Item 1</li>
-                      <li>Item 1</li>
-                      <li>Item 1</li>
-                      <li>Item 1</li>
-                      <li>Item 1</li>
-                    </ul>
+                    <p>Trago2Wheels is the only locations that offers you the "On The Road" package at a great price when bought with any bike in our extensive range of Scooters, Motorbikes and Scramblers.</p>
                     <p><Link className="swipeLink" to="/">Find Out More</Link></p>
                   </div>
                 </div>
@@ -53,7 +45,6 @@ class swiperHome extends React.Component {
                   <div className="col-sm-6 swiperText">
                     <h2>Herald maverick 125</h2>
                     <p>An off-road inspired motorcycle with an aggressive retro styled look.</p>
-                    <p>Featuring spoked wheels, knobbly tyres, unique scrambler lines, side number boards, custom LED tail light and Euro 4 compliant linked braking system.</p>
                     <p><Link className="swipeLink" to="/motorbikes/maverick-125/">Find Out More</Link></p>
                   </div>
                 </div>
