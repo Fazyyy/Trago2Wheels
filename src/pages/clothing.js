@@ -10,7 +10,7 @@ export default ({ data }) => {
       <Helmet>
         <title>Trago2Wheels - Clothing</title>
       </Helmet>
-      <div className="motorbikeBanner">
+      <div className="pageBanner clothingBanner">
         <div className="container">
           <div class="row">
             <div class="col">

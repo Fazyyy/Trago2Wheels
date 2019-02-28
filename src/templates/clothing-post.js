@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 import Banner from '../img/clothingBanner.jpg'
@@ -40,7 +40,8 @@ export default ({ data }) => {
                 <h2 className="clothingTitle">{post.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 <p>Available in: {post.color}</p>
-                <Link to="/" className="ccButton">Click &amp; Collect</Link>
+                <p>Available sizes: {post.sizes}</p>
+                <a href={post.productLink} target="_blank" rel="noopener noreferrer" className="ccButton">Click &amp; Collect</a>
               </div>
             </div>
           </div>
@@ -56,6 +57,8 @@ query($slug: String!) {
             frontmatter {
               title
               color
+              productLink
+              sizes
               productImage {
                 childImageSharp {
                   fluid(maxWidth:600) {

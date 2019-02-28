@@ -10,7 +10,7 @@ export default ({ data }) => {
         <title>Trago2Wheels - Training</title>
         <meta name="description" content="Trago2Wheels is the leading supplier of motorbikes, scooters and accessories in South Wales and the South West." />
       </Helmet>
-      <div className="motorbikeBanner">
+      <div className="pageBanner trainingBanner">
         <div className="container">
           <div class="row">
             <div class="col">

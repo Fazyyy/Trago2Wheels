@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Helmet } from 'react-helmet'
 import Img from 'gatsby-image'
@@ -30,10 +29,10 @@ export default ({ data }) => {
               <div className="col-sm-6">
                 <Img fluid={post.productImage.childImageSharp.fluid} alt={post.title} />
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6" style={{ paddingBottom: '120px' }}>
                 <h2>{post.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-                <Link to="/" className="ccButton">Click &amp; Collect</Link>
+                <a href={post.productLink} target="_blank" rel="noopener noreferrer" className="ccButton">Click &amp; Collect</a>
               </div>
             </div>
           </div>
@@ -49,6 +48,7 @@ query($slug: String!) {
       frontmatter {
         title
         price
+        productLink
         productImage {
           childImageSharp {
             fluid(maxWidth:600) {

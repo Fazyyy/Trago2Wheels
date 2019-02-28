@@ -3,6 +3,8 @@ title: "Roxter Over Jacket"
 price: "12.99"
 brand: "Roxter"
 productImage: "./roxter-over-jacket.jpg"
+productLink: "https://www.trago.co.uk/search.php?Keywords=roxter+over+jacket&x=0&y=0"
+sizes: "S, M, L, XL, XXL"
 product: "clothing"
 color: "Black"
 ---

@@ -424,8 +424,7 @@ ul.swipeList {
     MOTORBIKE BANNER
 ==================================*/
 
-.motorbikeBanner {
-    background-image: url('../img/banner4.jpg');
+.pageBanner {
     height: 40vh;
     width:100%;
     background-attachment: fixed;
@@ -433,6 +432,43 @@ ul.swipeList {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+}
+
+.motorbikeBanner {
+    background-image: url('../img/banner4.jpg');
+}
+
+.scooterBanner {
+    background-image: url('../img/banner5.jpg');
+}
+
+.clothingBanner {
+    background-image: url('../img/banner1.jpg');
+}
+
+.helmetBanner {
+    background-image: url('../img/banner6.jpg');
+}
+
+.toolBanner {
+    background-image: url('../img/banner6.jpg');
+}
+
+.trainingBanner {
+    background-image: url('../img/banner6.jpg');
+}
+
+.trainingBanner {
+    background-image: url('../img/banner6.jpg');
+}
+
+.eventsBanner {
+    background-image: url('../img/banner1.jpg');
+}
+
+.contactBanner {
+    background-image: url('../img/banner7.jpg');
 }
 
 .motorbikeBanner:after {
@@ -907,7 +943,7 @@ a.eventLink:hover {
     position: absolute;
     padding: 25px 0;
     border-radius: 50%;
-    right: 0;
+    right: 15px;
     font-family: Roboto;
     font-weight: 700;
     text-align: center;

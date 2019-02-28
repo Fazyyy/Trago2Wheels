@@ -4,6 +4,8 @@ price: "64.99"
 brand: "Buffalo"
 productImage: "./buffalo-sienna.jpg"
 product: "clothing"
+productLink: "https://www.trago.co.uk/search.php?Keywords=buffalo+sienna&x=0&y=0"
+sizes: "10, 12, 14, 16, 18"
 color: "Black & Neon, Black & Purple"
 ---
 

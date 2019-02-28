@@ -14,7 +14,7 @@ export default ({ data }) => (
   <Helmet>
     <title>Trago2Wheels - Events</title>
   </Helmet>
-  <div className="motorbikeBanner">
+  <div className="pageBanner eventsBanner">
     <div className="container">
       <div class="row">
         <div class="col">

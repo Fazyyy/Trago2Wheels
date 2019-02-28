@@ -11,7 +11,7 @@ export default ({ data }) => {
       <Helmet>
         <title>Trago2Wheels - Motorbikes</title>
       </Helmet>
-      <div className="motorbikeBanner">
+      <div className="pageBanner motorbikeBanner">
         <div className="container">
           <div class="row">
             <div class="col">

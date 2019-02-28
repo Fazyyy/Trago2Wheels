@@ -3,6 +3,8 @@ title: "Heritage Ladies Wax Jacket"
 price: "89.99"
 brand: "Heritage"
 productImage: "./heritage-ladies-wax.jpg"
+productLink: "https://www.trago.co.uk/search.php?Keywords=heritage+ladies+wax&x=0&y=0"
+sizes: "8, 10, 12, 14, 16"
 product: "clothing"
 color: "Olive"
 ---

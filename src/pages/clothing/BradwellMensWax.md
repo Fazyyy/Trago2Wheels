@@ -2,6 +2,8 @@
 title: "Bradwell Mens Wax Jacket"
 price: "149.99"
 brand: "Bradwell"
+productLink: "https://www.trago.co.uk/search.php?Keywords=bradwell+mens+wax&x=0&y=0"
+sizes: "S, M, L, 2XL"
 productImage: "./bradwell-mens-wax.jpg"
 product: "clothing"
 color: "Navy"

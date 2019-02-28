@@ -10,7 +10,7 @@ export default () => {
         <Helmet>
             <title>Trago2Wheels - Contact</title>
         </Helmet>
-        <div className="motorbikeBanner">
+        <div className="pageBanner contactBanner">
             <div className="container">
                 <div class="row">
                     <div class="col">
