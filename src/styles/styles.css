@@ -471,7 +471,7 @@ ul.swipeList {
     background-image: url('../img/banner7.jpg');
 }
 
-.motorbikeBanner:after {
+.pageBanner:after {
     position: absolute;
     content: "";
     height: 100%;
@@ -482,24 +482,24 @@ ul.swipeList {
     left: 0;
 }
 
-.motorbikeBanner .container {
+.pageBanner .container {
     position: relative;
     height: 100%;
     z-index: 3;
 }
 
-.motorbikeBanner .container .row {
+.pageBanner .container .row {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.motorbikeBanner h1 {
+.pageBanner h1 {
     color: #fff;
     margin-bottom: 2px;
 }
 
-.motorbikeBanner p {
+.pageBanner p {
     color: #fff;
     margin-bottom: 25px;
 }
