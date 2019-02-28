@@ -926,3 +926,56 @@ a.eventLink:hover {
 .bikeContainer h2 {
     color: #000;
 }
+
+/*=====================
+CONTACT PAGE FORM
+======================*/
+
+.contactForm input,
+.contactForm textArea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    background: #5c6395;
+    color: #fff;
+    border: none;
+    font-family: Montserrat;
+    opacity: 0.75;
+    transition: 0.5s ease;
+}
+
+.contactForm textArea {
+    min-height: 250px;
+}
+
+.contactForm input:focus,
+.contactForm textArea:focus {
+    opacity: 1;
+}
+
+.contactForm input::placeholder,
+.contactForm textArea::placeholder { 
+    color: #fff;
+}
+
+.contactFormButton {
+    background: #1c2858;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    font-family: Roboto;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.contactFormButton:hover {
+    background: #5c6395;
+}

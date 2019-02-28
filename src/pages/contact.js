@@ -31,27 +31,22 @@ export default () => {
             </div>
         </div>
         <div className="container contactForm spacing">
-            <div className="row">
-                <div className="col">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                        <p class="hidden">
-                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                        </p>
-                        <p>
-                            <label>Your Name: <input type="text" name="name" /></label>   
-                        </p>
-                        <p>
-                            <label>Your Email: <input type="email" name="email" /></label>
-                        </p>
-                        <p>
-                            <label>Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                            <button type="submit">Send</button>
-                        </p>
-                    </form>
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+                <div className="row">
+                    <div className="col" style={{ width: '100%' }}>
+                        <input type="text" name="name" placeholder="your Name" />
+                        <input type="text" name="telephone" placeholder="Contact number" />
+                        <input type="email" name="email" placeholder="Your Email" />
+                        <textarea name="message" placeholder="Your Message" ></textarea>
+                    </div>
                 </div>
-            </div>
+                <p>
+                    <button className="contactFormButton" type="submit">Send</button>
+                </p>
+            </form>
         </div>
         <Map />
     </Layout>
