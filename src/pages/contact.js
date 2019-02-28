@@ -42,7 +42,7 @@ export default () => {
                         </p>
                         <div className="row">
                             <div className="col spacing" style={{ width: '100%' }}>
-                                <input type="text" name="name" placeholder="your Name" />
+                                <input type="text" name="name" placeholder="Your Name" />
                                 <input type="text" name="telephone" placeholder="Contact number" />
                                 <input type="email" name="email" placeholder="Your Email" />
                                 <textarea name="message" placeholder="Your Message" ></textarea>
