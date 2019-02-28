@@ -51,6 +51,9 @@ class swiperHome extends React.Component {
               </div>
             </div>
           </div>
+
+
+{/*
           <div className="swiperSlide3">
             <div className="container-fluid swiperSlideInner">
               <div className="container" style={{ position:'relative' }}>
@@ -131,6 +134,9 @@ class swiperHome extends React.Component {
               </div>
             </div>
           </div>
+
+
+*/}
         </Swiper>
       </div>
     )

@@ -60,7 +60,7 @@ export default ({ data }) => {
                 </div>
                 <div className="row" style={{ marginTop: '25px' }}>
                       <div className="col">
-                      <p style={{ float:'right' }}><Link className="eventLink big" to="/">View All</Link></p>
+                      <p style={{ float:'right' }}><Link className="eventLink big" to="/events/">View All</Link></p>
                       </div>
                 </div>
             </div>

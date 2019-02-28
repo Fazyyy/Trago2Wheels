@@ -45,12 +45,12 @@ export default ({ data }) => {
               <h2>{post.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 <ul className="bikeInfo">
-                  <li><FontAwesomeIcon icon="info-circle" /> Weight <span>{post.weight}kg</span></li>
-                  <li><FontAwesomeIcon icon="info-circle" /> Engine <span>{post.Engine}</span></li>
-                  <li><FontAwesomeIcon icon="info-circle" /> Displacement <span>{post.displacement}cc</span></li>
-                  <li><FontAwesomeIcon icon="info-circle" /> Max Power <span>{post.maxpower}bhp</span></li>
-                  <li><FontAwesomeIcon icon="info-circle" /> Transmission <span>{post.transmission}</span></li>
-                  <li><FontAwesomeIcon icon="info-circle" /> Fuel Tank <span>{post.fueltank} Litres</span></li>
+                  <li>Weight <span>{post.weight}kg</span></li>
+                  <li>Engine <span>{post.Engine}</span></li>
+                  <li>Displacement <span>{post.displacement}cc</span></li>
+                  <li>Max Power <span>{post.maxpower}bhp</span></li>
+                  <li>Transmission <span>{post.transmission}</span></li>
+                  <li>Fuel Tank <span>{post.fueltank} Litres</span></li>
                 </ul>
                 <p style={{
                   textAlign:'right',

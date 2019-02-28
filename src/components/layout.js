@@ -127,13 +127,15 @@ export default ({ children }) => (
             </div>
             <CookieConsent
                 location="bottom"
-                buttonText="Sure man!!"
+                buttonText="I Accept"
                 cookieName="myAwesomeCookieName2"
-                style={{ background: "#2B373B" }}
-                buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+                style={{ background: "#5c6395", transition: '0.5s' }}
+                buttonStyle={{ color: "#fff", fontSize: "13px",background: '#333' }}
                 expires={14}
             >
-                This website uses cookies to enhance the user experience.
+                <div className="container">
+                    <p style={{ margin: '0' }}>This website uses cookies to enhance the user experience.</p>
+                </div>   
             </CookieConsent>
         </div>
     )}  />)
