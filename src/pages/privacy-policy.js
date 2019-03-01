@@ -26,7 +26,7 @@ export default () => {
                     
                     <h2>Privacy Policy</h2>
 
-                    <p>This privacy policy sets out how Trago2Wheels uses and protects any information that you give Andrew Cottey when you use this website. Andrew Cottey is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement. Andrew Cottey may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.</p>
+                    <p>This privacy policy sets out how Trago2Wheels uses and protects any information that you give Trago2Wheels when you use this website. Trago2Wheels is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement. Trago2Wheels may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.</p>
 
                     <h2>What we Collect?</h2>
 
@@ -34,11 +34,11 @@ export default () => {
 
                     <h2>What we do with the Information we Gather?</h2>
 
-                    <p>We require this information to understand your needs and provide you with a better service and in particular, for internal record keeping. We may also use the information to improve our products and services. Andrew Cottey may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided. From time to time, we may also use your information to contact you for market research purposes. Andrew Cottey may contact you by email, phone, fax or mail. We may use the information to customise the website according to your interests.</p>
+                    <p>We require this information to understand your needs and provide you with a better service and in particular, for internal record keeping. We may also use the information to improve our products and services. Trago2Wheels may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided. From time to time, we may also use your information to contact you for market research purposes. Trago2Wheels may contact you by email, phone, fax or mail. We may use the information to customise the website according to your interests.</p>
                     
                     <h2>Security</h2>
 
-                    <p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, Andrew Cottey have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>
+                    <p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, Trago2Wheels have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>
 
                     <h2>Links to other Websites</h2>
 
@@ -46,7 +46,7 @@ export default () => {
 
                     <h2>Controlling your Personal Information</h2>
 
-                    <p>You may choose to restrict the collection or use of your personal information for direct marketing purposes, by writing to us. Andrew Cottey will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties, which we think you may find interesting if you tell us that you wish this to happen. You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please contact us. If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the address on our contact page. We will promptly correct any information found to be incorrect.</p>
+                    <p>You may choose to restrict the collection or use of your personal information for direct marketing purposes, by writing to us. Trago2Wheels will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties, which we think you may find interesting if you tell us that you wish this to happen. You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please contact us. If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the address on our contact page. We will promptly correct any information found to be incorrect.</p>
                 </div>
             </div>
         </div>
