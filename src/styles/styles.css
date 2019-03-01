@@ -328,6 +328,12 @@ ul.swipeList {
       text-align: left;
   }
 
+  @media(min-width: 560px) {
+      .swiperText {
+          padding-top: 50%;
+      }
+  }
+
   .swiperText p {
       margin-top: 15px;
   }
