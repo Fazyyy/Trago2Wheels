@@ -7,6 +7,7 @@ product: "clothing"
 productLink: "https://www.trago.co.uk/search.php?Keywords=buffalo+sienna&x=0&y=0"
 sizes: "10, 12, 14, 16, 18"
 color: "Black & Neon, Black & Purple"
+tag: "jacket"
 ---
 
 The Buffalo Siena Ladies Motorcycle Jacket is part of the latest Buffalo collection. Designed to keep you at just the right temperature, all year long.

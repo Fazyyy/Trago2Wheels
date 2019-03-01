@@ -73,7 +73,7 @@ export default ({ data }) => {
 
 export const eventQuery = graphql`
 query eventsQuery {
-  allMarkdownRemark(filter:{frontmatter: {product: {regex: "/event/"}}}, sort: { fields: [frontmatter___eventDate], order: ASC }) {
+  allMarkdownRemark(limit: 3, filter:{frontmatter: {product: {regex: "/event/"}}}, sort: { fields: [frontmatter___eventDate], order: ASC }) {
     edges {
       node {
         id

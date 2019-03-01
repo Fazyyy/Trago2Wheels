@@ -7,6 +7,7 @@ sizes: "S, M, L, 2XL"
 productImage: "./bradwell-mens-wax.jpg"
 product: "clothing"
 color: "Navy"
+tag: "jacket"
 ---
 Oxford's designers have employed traditional tailoring methods to assemble the outer garment. For example, pockets are pleated in order to lie flat when empty, but provide space to expand when full. 
 

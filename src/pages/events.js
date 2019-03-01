@@ -35,8 +35,8 @@ export default ({ data }) => (
                               <h2 style={{ color: '#fff' }}>{node.frontmatter.title}</h2>
                           </div>
                           <div style={{ padding: '15px'}}>
-                              <p style={{ textAlign: 'right' }}><FontAwesomeIcon icon="calendar-alt" /> {node.frontmatter.ezDate}</p>
-                              <p>{node.excerpt}</p>
+                              <p style={{ textAlign: 'right', paddingBottom: '15px' }}><FontAwesomeIcon icon="calendar-alt" /> {node.frontmatter.ezDate}</p>
+                              <p className="eventExcerpt">{node.excerpt}</p>
                               <p style={{ float:'right' }}><Link className="eventLink" to={node.fields.slug}>View</Link></p>
                           </div>
                       </div>

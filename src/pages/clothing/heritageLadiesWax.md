@@ -7,6 +7,7 @@ productLink: "https://www.trago.co.uk/search.php?Keywords=heritage+ladies+wax&x=
 sizes: "8, 10, 12, 14, 16"
 product: "clothing"
 color: "Olive"
+tag: "jacket"
 ---
 This Heritage wax jacket is crafted with a fixed micro mesh breathable lining and a removable quilted thermal liner, The jacket is a classically styled four-pocket wax cotton jacket made for riding with removable CE shoulder and elbow protectors.
 
