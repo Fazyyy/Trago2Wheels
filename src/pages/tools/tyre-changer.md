@@ -1,7 +1,7 @@
 ---
 title: "Hydraulic Motorcycle Work Lift Table"
 price: "194.49"
-productImage: "./tyreChanger.jpg"
+productImage: "./tyre-changer.jpg"
 productLink: "https://www.trago.co.uk/motoring-motorcycling/motorcycling-accessories/motorcycling-tools/sealey-tools-motorcycle-mini-tyre-changer-tc965.html"
 product: "tool"
 ---
