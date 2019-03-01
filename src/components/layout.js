@@ -112,9 +112,9 @@ export default ({ children }) => (
                     <div className="row">
                         <div className="col">
                             <ul className="policies" style={{ marginTop: '15px' }}>
-                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> Cookies Policy</Link></li>
-                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> GDPR Policy</Link></li>
-                                <li><Link to="/"><FontAwesomeIcon icon="info-circle" /> Privacy Policy</Link></li>
+                                <li><Link to="/cookies-policy"><FontAwesomeIcon icon="info-circle" /> Cookies Policy</Link></li>
+                                <li><Link to="/data-protection-policy"><FontAwesomeIcon icon="info-circle" /> GDPR Policy</Link></li>
+                                <li><Link to="/privacy-policy"><FontAwesomeIcon icon="info-circle" /> Privacy Policy</Link></li>
                             </ul>
                         </div>
                     </div>
