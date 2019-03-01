@@ -28,7 +28,7 @@ export default ({ data }) => (
       <div className="container" style={{ marginTop: '4rem', marginBottom: '4rem' }}>
           <div className="row">
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <div className="col-md-4">
+                  <div className="col-md-4" style={{ marginBottom: '30px' }}>
                       <div className="event-item">
                           <div className="imageSection">
                               <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
