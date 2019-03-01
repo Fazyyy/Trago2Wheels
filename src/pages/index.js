@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import SwiperHome from "../components/swiperHome"
 import Layout from "../components/layout"
+import MonthlyMeet from "../components/MonthlyMeet"
 import Services from "../components/services"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Helmet } from 'react-helmet'
@@ -66,6 +67,7 @@ export default ({ data }) => {
             </div>
         </div>
         <Map />
+        <MonthlyMeet />
     </Layout>
   )
 }
