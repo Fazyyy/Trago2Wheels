@@ -4,6 +4,7 @@ price: "119.99"
 productImage: "./IS-17-Tridents.jpg"
 product: "helmet"
 color: "Green, Red, Black"
+sizes: "S, M, L, XL"
 ---
 
 Advanced Fibreglass Composite Shell: Lightweight, superior fit and comfort using advanced CAD technology. 
