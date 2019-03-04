@@ -1,11 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
+import favicon from "../static/favicon.ico"
 
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href={favicon} />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
