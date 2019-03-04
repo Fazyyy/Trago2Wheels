@@ -38,7 +38,7 @@ export default ({ data }) => {
                   fontWeight: '700',
                   fontSize: '22px'
                 }}>
-                  &pound;{post.price}
+                  Our Price: &pound;{post.price}
                 </p>
                 <a href={post.productLink} target="_blank" rel="noopener noreferrer" className="ccButton">Click &amp; Collect</a>
               </div>
