@@ -29,7 +29,7 @@ export default ({ data }) => {
                         <Link to={node.fields.slug}>
                         <img src={heraldLogo} className="brandLogo" alt={node.frontmatter.brand} />
                           <Img
-                            fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                            fluid={node.frontmatter.listImage.childImageSharp.fluid}
                           />
                         </Link>
                       <h3 style={{ textAlign: 'right' }}>
@@ -63,7 +63,7 @@ query IndexQuery {
           brand
           oldprice
           newprice
-          featuredImage {
+          listImage {
             childImageSharp {
               fluid(maxWidth:600) {
                 ...GatsbyImageSharpFluid_tracedSVG

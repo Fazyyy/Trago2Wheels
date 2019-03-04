@@ -12,9 +12,9 @@ displacement: "397"
 maxpower: "27"
 transmission: "5 speed manual"
 fueltank: "12"
-
-featuredImage: cafe-400.png
-mainImage: classic-125-main.jpg
+listImage: "./cafe-400.png"
+featuredImage: "./cafe-400.jpg"
+mainImage: "./classic-400-main.jpg"
 product: "motorbike"
 ---
 

@@ -43,7 +43,7 @@ export default ({ data }) => {
                 </div>
                 <div className="row">
                     {data.allMarkdownRemark.edges.map(({ node }) => (
-                        <div className="col-md-4">
+                        <div className="col-md-4" style={{ marginTop: '15px' }}>
                             <div className="event-item">
                                 <div className="imageSection">
                                     <Img

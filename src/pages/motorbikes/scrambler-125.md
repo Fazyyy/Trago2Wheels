@@ -12,7 +12,9 @@ maxpower: "9.6"
 transmission: "5 speed manual"
 fueltank: "12"
 
-featuredImage: scrambler-125.png
+listImage: scrambler-125.png
+
+featuredImage: scrambler-125.jpg
 mainImage: classic-125-main.jpg
 product: "motorbike"
 ---

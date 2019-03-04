@@ -12,7 +12,8 @@ maxpower: "9.9"
 transmission: "5 speed manual"
 fueltank: "12"
 
-featuredImage: classic-125.png
+listImage: "./classic-125.png"
+featuredImage: classic-125.jpg
 mainImage: classic-125-main.jpg
 product: "motorbike"
 ---

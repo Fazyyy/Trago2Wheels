@@ -11,9 +11,9 @@ displacement: "124"
 maxpower: "9.9"
 transmission: "5 speed manual"
 fueltank: "12"
-
-featuredImage: cafe-125.png
-mainImage: classic-125-main.jpg
+listImage: "./cafe-125.png"
+featuredImage: cafe-125.jpg
+mainImage: cafe-125-main.jpg
 product: "motorbike"
 ---
 
