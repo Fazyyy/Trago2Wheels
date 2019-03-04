@@ -202,12 +202,12 @@ p {
 ==================================*/
 
 .tPara {
+    background: #ccc;
     background-attachment: fixed;
     height: 280px;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background: #ccc;
 }
 
 .tPara1 {
