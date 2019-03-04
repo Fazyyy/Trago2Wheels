@@ -206,7 +206,7 @@ p {
     height: 280px;
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background: #ccc;
 }
 
