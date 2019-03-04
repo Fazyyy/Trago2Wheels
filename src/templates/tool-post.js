@@ -33,6 +33,13 @@ export default ({ data }) => {
               <div className="col-sm-6" style={{ paddingBottom: '120px' }}>
                 <h2>{post.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                <p style={{
+                  textAlign:'right',
+                  fontWeight: '700',
+                  fontSize: '22px'
+                }}>
+                  &pound;{post.price}
+                </p>
                 <a href={post.productLink} target="_blank" rel="noopener noreferrer" className="ccButton">Click &amp; Collect</a>
               </div>
             </div>
