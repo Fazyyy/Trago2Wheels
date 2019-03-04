@@ -207,6 +207,7 @@ p {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: none;
+    background: #ccc;
 }
 
 .tPara1 {

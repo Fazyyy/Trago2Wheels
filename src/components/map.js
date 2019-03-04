@@ -10,6 +10,89 @@ library.add( faMapMarkerAlt, faPhone )
 class MapComponent extends React.Component {
 
    render() {
+
+    const mapStyles = [
+        {
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#444444"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#f2f2f2"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "lightness": 45
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#aad2e3"
+                },
+                {
+                    "visibility": "on"
+                }
+            ]
+        }
+    ]
+    
+
    return(
         <div className="container spacing mapsBlock">
             <div className="row mapRow">
@@ -24,7 +107,8 @@ class MapComponent extends React.Component {
                         style={{width: '100%', height: '100%', position: 'relative'}}
                         initialCenter={{ lat: 50.5571377, lng: -3.6667857 }}
                         className={'map'}
-                        zoom={14}>
+                        styles={mapStyles}
+                        zoom={16}>
                         <Marker position={{lat: 50.5571377, lng: -3.6667857 }} />
                     </Map>
                 </div>
@@ -43,7 +127,8 @@ class MapComponent extends React.Component {
                         style={{width: '100%', height: '100%', position: 'relative'}}
                         initialCenter={{ lat: 51.7489784, lng: -3.3976439 }}
                         className={'map'}
-                        zoom={14}>
+                        styles={mapStyles}
+                        zoom={16}>
                         <Marker position={{ lat: 51.7489784, lng: -3.3976439 }} />
                     </Map>
                 </div>
