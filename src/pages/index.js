@@ -20,6 +20,7 @@ export default ({ data }) => {
       <Helmet>
         <title>Trago2Wheels - Home</title>
         <meta name="description" content="Trago2Wheels is the leading supplier of motorbikes, scooters and accessories in South Wales and the South West." />
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/svg-with-js.css" rel="stylesheet"></link>
       </Helmet>
         <SwiperHome />
         <div className="homeIntro gbg">
