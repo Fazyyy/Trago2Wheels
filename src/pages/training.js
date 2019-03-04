@@ -20,7 +20,7 @@ export default ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container training">
         <div className="row spacing">
           <div className="col-sm-2">
           </div>
@@ -37,7 +37,7 @@ export default ({ data }) => {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container training">
         <div className="row spacing">
           <div className="col-sm-2">
           </div>
@@ -55,7 +55,7 @@ export default ({ data }) => {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container training">
         <div className="row spacing">
           <div className="col-sm-2">
           </div>
@@ -72,7 +72,7 @@ export default ({ data }) => {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container training">
         <div className="row spacing">
           <div className="col-sm-2">
           </div>
