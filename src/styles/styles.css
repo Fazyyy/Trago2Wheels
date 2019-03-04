@@ -1026,7 +1026,7 @@ CONTACT PAGE FORM
 }
 
 .contactForm textArea {
-    min-height: 250px;
+    min-height: 150px;
 }
 
 .contactForm input:focus,

@@ -34,11 +34,13 @@ export default () => {
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
-                            <div className="row">
-                                <div className="col spacing" style={{ width: '100%' }}>
+                            <div className="row spacing">
+                                <div className="col-sm-6 " style={{ width: '100%' }}>
                                     <input type="text" name="name" placeholder="Your Name" />
                                     <input type="text" name="telephone" placeholder="Contact Number" />
                                     <input type="email" name="email" placeholder="Your Email" />
+                                </div>
+                                <div className="col-sm-6">
                                     <textarea name="message" placeholder="Your Message" ></textarea>
                                 </div>
                             </div>
