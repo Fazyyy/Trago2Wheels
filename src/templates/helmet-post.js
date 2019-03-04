@@ -40,6 +40,13 @@ export default ({ data }) => {
                 <h2 className="clothingTitle">{post.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 <p>Available in: {post.color}</p>
+                <p style={{
+                  textAlign:'right',
+                  fontWeight: '700',
+                  fontSize: '22px'
+                }}>
+                  &pound;{post.price}
+                </p>
                 <Link to="/" target="_blank" className="ccButton">Click &amp; Collect</Link>
               </div>
             </div>
