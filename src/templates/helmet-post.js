@@ -45,7 +45,7 @@ export default ({ data }) => {
                   fontWeight: '700',
                   fontSize: '22px'
                 }}>
-                  &pound;{post.price}
+                  Our Price: &pound;{post.price}
                 </p>
                 <Link to="/" target="_blank" className="ccButton">Click &amp; Collect</Link>
               </div>
@@ -62,6 +62,7 @@ query($slug: String!) {
             html
             frontmatter {
               title
+              price
               color
               productImage {
                 childImageSharp {
