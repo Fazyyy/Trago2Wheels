@@ -13,7 +13,7 @@ maxpower: "9.5"
 transmission: "5 speed manual"
 fueltank: "14"
 listImage: mirage-125.png
-featuredImage: mirage-125.png
+featuredImage: mirage-125.jpg
 mainImage: classic-125-main.jpg
 product: "motorbike"
 ---
