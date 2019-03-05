@@ -9,4 +9,6 @@ ezDate: "14th July '19"
 
 ---
 
-Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth. Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth. Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth. Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth. Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth.
+Starting from Trago Mills Newton Abbot and finishing at the Den in Teignmouth.
+
+More information to follow soon.
