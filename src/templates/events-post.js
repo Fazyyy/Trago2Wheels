@@ -42,34 +42,34 @@ export default ({ data }) => {
                 <h2>{post.title}</h2>
                 <p><FontAwesomeIcon icon="calendar-alt" /> { post.ezDate }</p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                <div id="mc_embed_signup">
+                  <form action="https://trago.us20.list-manage.com/subscribe/post?u=71e927d89bfcabbe8d580dbf2&amp;id=64904a42d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                      <div id="mc_embed_signup_scroll">
+                          <div className="mc-field-group">
+                              <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Email*" />
+                          </div>
+                          <div className="mc-field-group">
+                              <input type="text" name="FNAME" className="" id="mce-FNAME" placeholder="First Name" />
+                          </div>
+                          <div className="mc-field-group">
+                              <input type="text" name="LNAME" className="" id="mce-LNAME" placeholder="Last Name" />
+                          </div>
+                          <div id="mce-responses" className="clear">
+                              <div className="response" id="mce-error-response" style={{display:'none'}}></div>
+                              <div className="response" id="mce-success-response" style={{display:'none'}}></div>
+                          </div>
+                          <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+                              <input type="text" name="b_71e927d89bfcabbe8d580dbf2_64904a42d0" tabIndex="-1" value="" />
+                          </div>
+                          <div className="clear">
+                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
+                          </div>
+                      </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div id="mc_embed_signup">
-          <form action="https://trago.us20.list-manage.com/subscribe/post?u=71e927d89bfcabbe8d580dbf2&amp;id=64904a42d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
-              <div id="mc_embed_signup_scroll">
-                  <div className="mc-field-group">
-                      <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Email*" />
-                  </div>
-                  <div className="mc-field-group">
-                      <input type="text" name="FNAME" className="" id="mce-FNAME" placeholder="First Name" />
-                  </div>
-                  <div className="mc-field-group">
-                      <input type="text" name="LNAME" className="" id="mce-LNAME" placeholder="Last Name" />
-                  </div>
-                  <div id="mce-responses" className="clear">
-                      <div className="response" id="mce-error-response" style={{display:'none'}}></div>
-                      <div className="response" id="mce-success-response" style={{display:'none'}}></div>
-                  </div>
-                  <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
-                      <input type="text" name="b_71e927d89bfcabbe8d580dbf2_64904a42d0" tabIndex="-1" value="" />
-                  </div>
-                  <div className="clear">
-                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
-                  </div>
-              </div>
-          </form>
         </div>
     </Layout>
   )
