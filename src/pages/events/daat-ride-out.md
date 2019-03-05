@@ -2,7 +2,7 @@
 
 title: "DAAT Ride Out"
 product: "event"
-featuredImage: "./festival.jpg"
+featuredImage: "./daat.jfif"
 eventImage: "./eventBike.jpg"
 eventDate: "2019-07-14"
 ezDate: "14th July '19"
