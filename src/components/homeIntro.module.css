@@ -146,7 +146,7 @@ header {
   margin-left: -15px;
 }
 
-.col-sm-6 {
+.colsm6 {
   -webkit-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
