@@ -42,7 +42,7 @@ export default ({ data }) => {
                 <h2>{post.title}</h2>
                 <p><FontAwesomeIcon icon="calendar-alt" /> { post.ezDate }</p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-                <h3>Sign Up</h3>
+                <h3 style={{ color: '#000' }}>Sign Up</h3>
                 <p style={{ margin: '0' }}>Stay up to date with the latest news and events by joining our mailing list.</p>
                 <p><small>We promise not to spam you.</small></p>
                 <div id="mc_embed_signup">
