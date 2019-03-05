@@ -2,114 +2,134 @@
     GENERAL STYLES
 ==================================*/
 
-*{
-    box-sizing:border-box
+* {
+  box-sizing: border-box;
 }
 
-*:focus{
-    outline:none !important
+*:focus {
+  outline: none !important;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-html{
-    scroll-behavior:smooth
+html {
+  scroll-behavior: smooth;
 }
 
-.mx-auto{
-    display:block
+.mx-auto {
+  display: block;
 }
 
-a:hover{
-    text-decoration:none;
-    color:inheret
+a:hover {
+  text-decoration: none;
+  color: inheret;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family:"Roboto";
-    font-weight:700;
-    color: #fff;
-    font-size: 1.4em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.4em;
 }
 
-.spacing{
-    margin-top:4rem;
-    margin-bottom:4rem
+.spacing {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 p {
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .gbg {
-    background: #5c6395; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #5c6395 0%, #1c2858 41%, #5c6395 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #5c6395 0%,#1c2858 41%,#5c6395 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', endColorstr='#5c6395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #5c6395; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #5c6395 0%,
+    #1c2858 41%,
+    #5c6395 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #5c6395 0%,
+    #1c2858 41%,
+    #5c6395 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #5c6395 0%,
+    #1c2858 41%,
+    #5c6395 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6395', endColorstr='#5c6395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .homeIntro {
-    color: #fff;
-    padding: 4rem;
+  color: #fff;
+  padding: 4rem;
 }
 
 .mapI {
-    padding: 0;
-    padding: 15px;
-    color: #fff;
+  padding: 0;
+  padding: 15px;
+  color: #fff;
 }
 
 .mapI h2 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .mapI a {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .mapRow {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .mapsBlock a {
-    color: #fff;
-    transition: 0.5s ease;
-    font-weight: 700;
+  color: #fff;
+  transition: 0.5s ease;
+  font-weight: 700;
 }
 
 .mapsBlock a:hover {
-    color: #dfd9e2;
-    text-decoration: none;
+  color: #dfd9e2;
+  text-decoration: none;
 }
 
 .shadow {
-    box-shadow: 2px 6px 6px rgba(0,0,0,0.6);
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.6);
 }
 
-@media(max-width:560px) {
-    .hidden-xs {
-        display: none !important;
-    }
+@media (max-width: 560px) {
+  .hidden-xs {
+    display: none !important;
+  }
 
-    .footer h2 {
-        margin-top: 15px;
-    }
+  .footer h2 {
+    margin-top: 15px;
+  }
 }
 
 .headroom {
-    z-index: 999 !important;
+  z-index: 999 !important;
 }
 
 .training h2 {
-    color: #1c2858;
+  color: #1c2858;
 }
 
 /*==================================
@@ -117,84 +137,84 @@ p {
 ==================================*/
 
 .imgLinks .item {
-    border: 2px solid #fff;
-    min-height: 200px;
-    overflow: hidden;
-    width: 100%;
-    padding: 0;
-    position: relative;
+  border: 2px solid #fff;
+  min-height: 200px;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  position: relative;
 }
 
 .imgLinks .item a {
-    display:block;
-    background-image: url('../img/clothingBanner.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    transition: 0.5s ease;
-    height: 100%;
-    width: 100%;
-    min-height: 200px;
-    padding-top: 95px;
-    text-align: center;
-    font-family: Roboto;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2em;
-    position: relative;
-    z-index: 9;
+  display: block;
+  background-image: url("../img/clothingBanner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: 0.5s ease;
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  padding-top: 95px;
+  text-align: center;
+  font-family: Roboto;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  position: relative;
+  z-index: 9;
 }
 
 .imgLinks .item a:after {
-    background: rgba(0,0,0,0.69);
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-    transition: 0.5s ease;
+  background: rgba(0, 0, 0, 0.69);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  transition: 0.5s ease;
 }
 
 .imgLinks .item:hover a:after {
-    background: rgba(0,0,0,0.55);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .imgLinks .item:hover a {
-    transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 .imgLinks .item p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    pointer-events: none;
-    z-index: 10;
-    color: #fff;
-    font-family: Roboto;
-    font-size: 2em;
-    transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  z-index: 10;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
 }
 
 .imgLinks .item.scooter a {
-    background-image: url('../img/scooter-img.jpg');
+  background-image: url("../img/scooter-img.jpg");
 }
 
 .imgLinks .item.clothing a {
-    background-image: url('../img/clothing-banner.jpg');
+  background-image: url("../img/clothing-banner.jpg");
 }
 
 .imgLinks .item.helmet a {
-    background-image: url('../img/helmet-image.jpg');
+  background-image: url("../img/helmet-image.jpg");
 }
 
 .imgLinks .item.tool a {
-    background-image: url('../img/tools-image.jpg');
+  background-image: url("../img/tools-image.jpg");
 }
 
 .imgLinks .item.training a {
-    background-image: url('../img/training-image.jpg');
+  background-image: url("../img/training-image.jpg");
 }
 
 /*==================================
@@ -202,24 +222,24 @@ p {
 ==================================*/
 
 .tPara {
-    background: #ccc;
-    background-attachment: fixed;
-    height: 280px;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: #ccc;
+  background-attachment: fixed;
+  height: 280px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .tPara1 {
-    background-image: url('../img/tpara1.jpg');
+  background-image: url("../img/tpara1.jpg");
 }
 
 .tPara2 {
-    background-image: url('../img/tpara2.jpg');
+  background-image: url("../img/tpara2.jpg");
 }
 
 .tPara3 {
-    background-image: url('../img/tpara3.jpg');
+  background-image: url("../img/tpara3.jpg");
 }
 
 /*==================================
@@ -227,212 +247,212 @@ p {
 ==================================*/
 
 .swiperMaster {
-    position: relative;
+  position: relative;
 }
 
 ul.swipeList {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
-    background: #131313;
-    position: relative;
-  }
-
-  .swipeLink {
-      background: #1c2858;
-      padding: 10px 15px;
-      color: #fff;
-      font-size: 18px;
-      transition: 0.5s ease;
-  }
-
-  .swipeLink:hover {
-    background: #5c6395;
-    text-decoration: none;
-    color: #fff;
+  width: 100%;
+  height: 100%;
+  background: #131313;
+  position: relative;
 }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    min-height: 80vh;
-    background: #f4f4f4;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../img/kawasaki-ninja.jpg');
-    padding-top: 100px;
-  }
+.swipeLink {
+  background: #1c2858;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
 
-    .swiperSlide1 {
-        background-image: url("../img/banner1.jpg");
-    }
-    .swiperSlide2 {
-        background-image: url("../img/banner5.jpg");
-    }
-    .swiperSlide3 {
-        background-image: url("../img/banner3.jpg");
-    }
-    .swiperSlide4 {
-        background-image: url("../img/banner4.jpg");
-    }
-    .swiperSlide5 {
-        background-image: url("../img/banner2.jpg");
-    }
-    .swiperSlide6 {
-        background-image: url("../img/banner6.jpg");
-    }
-    .swiperSlide7 {
-        background-image: url("../img/banner7.jpg");
-    }
+.swipeLink:hover {
+  background: #5c6395;
+  text-decoration: none;
+  color: #fff;
+}
 
-  .swiperSlideInner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: 2;
-      padding-top: 100px;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f4f4f4;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/kawasaki-ninja.jpg");
+  padding-top: 100px;
+}
 
-  .swiperSlideInner .container,
-  .swiperSlideInner .container .row {
-      height: 100%;
-  }
+.swiperSlide1 {
+  background-image: url("../img/banner1.jpg");
+}
+.swiperSlide2 {
+  background-image: url("../img/banner5.jpg");
+}
+.swiperSlide3 {
+  background-image: url("../img/banner3.jpg");
+}
+.swiperSlide4 {
+  background-image: url("../img/banner4.jpg");
+}
+.swiperSlide5 {
+  background-image: url("../img/banner2.jpg");
+}
+.swiperSlide6 {
+  background-image: url("../img/banner6.jpg");
+}
+.swiperSlide7 {
+  background-image: url("../img/banner7.jpg");
+}
 
-  .swiperSlideInner:after {
-      position: absolute;
-      content:"";
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.69);
-      z-index: 1;
-  }
+.swiperSlideInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  padding-top: 100px;
+}
 
+.swiperSlideInner .container,
+.swiperSlideInner .container .row {
+  height: 100%;
+}
+
+.swiperSlideInner:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.69);
+  z-index: 1;
+}
+
+.swiperText {
+  padding-top: 150px;
+  transform: translate(0, -50%);
+  color: #fff;
+  z-index: 9;
+  text-align: left;
+}
+
+@media (min-width: 560px) {
   .swiperText {
-      padding-top: 150px;
-      transform: translate(0,-50%);
-      color: #fff;
-      z-index: 9;
-      text-align: left;
+    padding-top: 50%;
   }
+}
 
-  @media(min-width: 560px) {
-      .swiperText {
-          padding-top: 50%;
-      }
+.swiperText p {
+  margin-top: 15px;
+}
+
+.promo {
+  background: #fff;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  z-index: 2;
+  position: absolute;
+  bottom: 150px;
+  right: 15px;
+}
+
+.promo h2 {
+  padding-top: 20px;
+  color: #000;
+}
+
+.promo a {
+  background: #1c2858;
+  color: #fff;
+  padding: 5px 15px;
+  transition: 0.5s ease;
+}
+
+.promo a:hover {
+  opacity: 0.7;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 780px) {
+  .swiperSlideInner {
+    padding-top: 200px;
   }
+}
 
-  .swiperText p {
-      margin-top: 15px;
+@media (max-width: 560px) {
+  .swiperSlideInner {
+    padding-top: 200px;
   }
 
   .promo {
-      background: #fff;
-      border-radius: 50%;
-      width: 160px;
-      height: 160px;
-      z-index: 2;
-      position: absolute;
-      bottom: 150px;
-      right: 15px;
+    bottom: 15px;
+    width: 120px;
+    height: 120px;
   }
 
   .promo h2 {
-      padding-top: 20px;
-      color: #000;
+    font-size: 14px;
+    max-width: 80px;
+    text-align: center;
+    margin-left: 20px;
   }
+}
 
-  .promo a {
-      background: #1c2858;
-      color: #fff;
-      padding: 5px 15px;
-      transition: 0.5s ease;
-  }
-
-  .promo a:hover {
-      opacity: 0.7;
-      color: #fff;
-      text-decoration: none;
-  }
-
-  @media(max-width: 780px) {
-    .swiperSlideInner {
-        padding-top: 200px;
-    }
-  }
-
-  @media(max-width: 560px) {
-    .swiperSlideInner {
-        padding-top: 200px;
-    }
-
-    .promo {
-        bottom: 15px;
-        width: 120px;
-        height: 120px;
-    }
-
-    .promo h2 {
-        font-size: 14px;
-        max-width: 80px;
-        text-align: center;
-        margin-left: 20px;
-    }
-  }
-  
 /*==================================
     SERVICES STYLES
 ==================================*/
 
 .services {
-    color: #000;
-    padding-top:4rem;
-    padding-bottom: 4rem;
+  color: #000;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .services .service {
-    padding: 20px 15px;
-    border-radius: 15px;
-    margin: 5px 0;
-    transition: 0.5s ease;
+  padding: 20px 15px;
+  border-radius: 15px;
+  margin: 5px 0;
+  transition: 0.5s ease;
 }
 
 .services .service img {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .services h2 {
-    color: #1c2858;
-    font-family: Roboto;
-    font-weight: 700;
-    margin-bottom: 15px;
+  color: #1c2858;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .service p {
-    margin-top: 15px;
-    margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 /*==================================
@@ -440,83 +460,82 @@ ul.swipeList {
 ==================================*/
 
 .pageBanner {
-    height: 40vh;
-    width:100%;
-    background-attachment: fixed;
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
+  height: 40vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .motorbikeBanner {
-    background-image: url('../img/banner4.jpg');
+  background-image: url("../img/banner4.jpg");
 }
 
 .scooterBanner {
-    background-image: url('../img/banner5.jpg');
+  background-image: url("../img/banner5.jpg");
 }
 
 .clothingBanner {
-    background-image: url('../img/banner1.jpg');
+  background-image: url("../img/banner1.jpg");
 }
 
 .helmetBanner {
-    background-image: url('../img/banner6.jpg');
+  background-image: url("../img/banner6.jpg");
 }
 
 .toolBanner {
-    background-image: url('../img/banner6.jpg');
+  background-image: url("../img/banner6.jpg");
 }
 
 .trainingBanner {
-    background-image: url('../img/banner6.jpg');
+  background-image: url("../img/banner6.jpg");
 }
 
 .trainingBanner {
-    background-image: url('../img/banner6.jpg');
+  background-image: url("../img/banner6.jpg");
 }
 
 .eventsBanner {
-    background-image: url('../img/banner1.jpg');
+  background-image: url("../img/banner1.jpg");
 }
 
 .contactBanner {
-    background-image: url('../img/banner7.jpg');
+  background-image: url("../img/banner7.jpg");
 }
 
 .pageBanner:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.59);
-    z-index: 2;
-    top:0;
-    left: 0;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: 2;
+  top: 0;
+  left: 0;
 }
 
 .pageBanner .container {
-    position: relative;
-    height: 100%;
-    z-index: 3;
+  position: relative;
+  height: 100%;
+  z-index: 3;
 }
 
 .pageBanner .container .row {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .pageBanner h1 {
-    color: #fff;
-    margin-bottom: 2px;
+  color: #fff;
+  margin-bottom: 2px;
 }
 
 .pageBanner p {
-    color: #fff;
-    margin-bottom: 25px;
+  color: #fff;
+  margin-bottom: 25px;
 }
 
 /*==================================
@@ -524,187 +543,192 @@ ul.swipeList {
 ==================================*/
 
 .single {
-    padding: 15px;
+  padding: 15px;
 }
 
 .bikeGallery {
-    margin-bottom: 50px;
-    position: relative;
-    padding: 15px;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 15px;
 }
 
-  .bikeGallery img {
-    display: block;
-    max-width: 100%;
-    position: relative; 
-    z-index: -2;
-  }
+.bikeGallery img {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  z-index: -2;
+}
 
-  .bikeGallery .bikeImage {
-      position: relative;
-  }
+.bikeGallery .bikeImage {
+  position: relative;
+}
 
-  .bikeGallery .bikeImage .brandLogo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 3;
-      transform: translate(0,-20%);
-      opacity: 0.3;
-      transition: 0.5s ease;
-      max-width: 100px;
-  }
+.bikeGallery .bikeImage .brandLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transform: translate(0, -20%);
+  opacity: 0.3;
+  transition: 0.5s ease;
+  max-width: 100px;
+}
 
-  .bikeGallery .bikeImage:hover .brandLogo {
-    opacity: 0.9;
-  }
+.bikeGallery .bikeImage:hover .brandLogo {
+  opacity: 0.9;
+}
 
-  .bikeGallery h3 {
-      display: block;
-      padding: 5px;
-      color: #1c2858;
-      font-weight: 700;
-      z-index: 2;
-      margin-top: 15px;
-      margin-bottom: 0;
-  }
+.bikeGallery h3 {
+  display: block;
+  padding: 5px;
+  color: #1c2858;
+  font-weight: 700;
+  z-index: 2;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
 
-  .motorbikeParallax {
-    height: 400px;
-    background-attachment: fixed;
-    width:100%;
-    margin: 0;
-    padding: 0;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
+.motorbikeParallax {
+  height: 400px;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 
 .motorbikeParallax:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.69);
-    content: "";
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.69);
+  content: "";
+  z-index: 1;
 }
 
-.bikeRRP, .tragoPrice {
-    font-weight: 700;
-    margin-bottom: 0;
-    font-size: 16px;
-    margin-top: 0;
+.bikeRRP,
+.tragoPrice {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 16px;
+  margin-top: 0;
 }
 
 .bikeRRP {
-    font-size: 22px;
-    z-index: 3;
-    text-align: right;
+  font-size: 22px;
+  z-index: 3;
+  text-align: right;
 }
 
 .gallLink {
-    float: right;
-    display: block;
-    width: 120px;
-    background: #1c2858;
-    text-align: center;
-    color: #fff;
-    font-family: Roboto;
-    font-weight: 700;
-    margin-top: 15px;
-    transition: 0.5s ease;
-    padding: 5px 0;
+  float: right;
+  display: block;
+  width: 120px;
+  background: #1c2858;
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-top: 15px;
+  transition: 0.5s ease;
+  padding: 5px 0;
 }
 
 .gallLink:hover {
-    background: #5c6395;
-    color: #fff;
-    text-decoration: none;
+  background: #5c6395;
+  color: #fff;
+  text-decoration: none;
 }
 
 ul.bikeInfo {
-    padding: 0;
-    margin: 25px 0;
-    list-style-type: none;
-    max-width: 600px;
-    display: block;
+  padding: 0;
+  margin: 25px 0;
+  list-style-type: none;
+  max-width: 600px;
+  display: block;
 }
 
 ul.bikeInfo li {
-    padding: 2px 5px;
-    font-family: Montserrat;
+  padding: 2px 5px;
+  font-family: Montserrat;
 }
 
 ul.bikeInfo li:nth-child(even) {
-    background: #eee;
+  background: #eee;
 }
 
 ul.bikeInfo li span {
-    font-weight: bold;
-    float: right;
+  font-weight: bold;
+  float: right;
 }
 
 /*==================================
     FOOTER STYLES
 ==================================*/
 
-  .footer {
-      background: #1c2858;
-      color: #fff;
-      padding-top:15px;
-      padding-bottom: 15px;
-  }
+.footer {
+  background: #1c2858;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
-  .footer .socials, .footer .policies {
-      padding: 5px 0;
-      margin: 0;
-      list-style-type: none;
-  }
+.footer .socials,
+.footer .policies {
+  padding: 5px 0;
+  margin: 0;
+  list-style-type: none;
+}
 
-  .footer .socials li a {
-      color: #fff;
-      font-size: 26px;
-      transition: 0.5s ease;
-  }
+.footer .socials li a {
+  color: #fff;
+  font-size: 26px;
+  transition: 0.5s ease;
+}
 
 .footer .socials li:hover a {
-    color: rgb(92, 99, 149);
+  color: rgb(92, 99, 149);
 }
 
 .footer .socials li.facebook:hover a {
-    color:#3b5998 !important;
+  color: #3b5998 !important;
 }
 
 .footer .socials li.twitter:hover a {
-    color: #38A1F3 !important;
+  color: #38a1f3 !important;
 }
 
-  .footer .socials li, .footer .policies li {
-      display: inline-block;
-      padding-right: 10px;
-  }
+.footer .socials li,
+.footer .policies li {
+  display: inline-block;
+  padding-right: 10px;
+}
 
-  .footer .policies li a, .tel a {
-      color: #fff;
-  }
+.footer .policies li a,
+.tel a {
+  color: #fff;
+}
 
-  .footer .policies li a:hover, .tel a:hover {
-    color: #dfd9e2;
-    text-decoration: none;
+.footer .policies li a:hover,
+.tel a:hover {
+  color: #dfd9e2;
+  text-decoration: none;
 }
 
 .footer ul.times {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer ul.times li span {
-    width: 50px;
-    display: inline-block;
-    font-weight: bold;
+  width: 50px;
+  display: inline-block;
+  font-weight: bold;
 }
 
 /*==================================
@@ -712,188 +736,198 @@ ul.bikeInfo li span {
 ==================================*/
 
 #mc_embed_signup_scroll input {
-    min-width: 280px;
-    margin-top: 5px;
-    border: none;
-    padding: 5px;
-    font-family: Roboto;
-    display: block;
-    background: #e8e9f3;
-    transition: 0.5s ease;
+  min-width: 280px;
+  margin-top: 5px;
+  border: none;
+  padding: 5px;
+  font-family: Roboto;
+  display: block;
+  background: #e8e9f3;
+  transition: 0.5s ease;
 }
 
 #mc_embed_signup_scroll input:focus {
-    background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
 }
 
 #mc_embed_signup_scroll #mc-embedded-subscribe {
-    background: #5c6395;
-    color: #fff;
-    font-weight: 700;
-    transition: 0.5s ease;
+  background: #5c6395;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s ease;
 }
 
 #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
-    background: #dfd9e2;
-    color: #272635;
+  background: #dfd9e2;
+  color: #272635;
 }
 
 .qLinks {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .qLinks a {
-    color: #fff;
-    transition: 0.5s ease;
-    font-family: Montserrat;
+  color: #fff;
+  transition: 0.5s ease;
+  font-family: Montserrat;
 }
 
 .qLinks a:hover {
-    color: #5c6395;
-    text-decoration: none;
+  color: #5c6395;
+  text-decoration: none;
 }
 
 /*==================================
     NAVBAR STYLES
 ==================================*/
 
-    .navbar-light .navbar-toggler {
-        background: #fff;
-    }
+.navbar-light .navbar-toggler {
+  background: #fff;
+}
 
-    .headroom-wrapper {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 99;
-        width: 100%;
-    }
+.headroom-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
 
-    body .navbar-fixed-top {
-        width: 100%;
-    }
+body .navbar-fixed-top {
+  width: 100%;
+}
 
-    nav.navbar {
-        box-shadow: 5px 0px 10px rgba(0,0,0,0.69);
-    }
-    body .navbar-light .navbar-nav .nav-link {
-        font-family: Roboto;
-        color: #fff;
-    }
-    body .navbar-light .navbar-nav .active > .nav-link {
-        color: #e8e9f3;        
-    }
-    body .navbar-light .navbar-nav .nav-link:hover {
-        color: #dfd9e2;
-    }
+nav.navbar {
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.69);
+}
+body .navbar-light .navbar-nav .nav-link {
+  font-family: Roboto;
+  color: #fff;
+}
+body .navbar-light .navbar-nav .active > .nav-link {
+  color: #e8e9f3;
+}
+body .navbar-light .navbar-nav .nav-link:hover {
+  color: #dfd9e2;
+}
 
 /*==================================
     RIDEOUT HOME STYLES
 ==================================*/
 
 .rideoutHome {
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../img/banner4.jpg');
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    z-index: 1;
-    background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/banner4.jpg");
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+  background-attachment: fixed;
 }
 
 .rideoutHome:after {
-    position: absolute;
-    content: "";
-    background: #1c2858; /* Old browsers */
-    background: -moz-linear-gradient(left, #1c2858 0%, #000000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #1c2858 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #1c2858 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c2858', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.69;
-    z-index: 2;
+  position: absolute;
+  content: "";
+  background: #1c2858; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1c2858 0%,
+    #000000 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1c2858 0%,
+    #000000 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1c2858 0%,
+    #000000 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c2858', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.69;
+  z-index: 2;
 }
 
 .rideoutHome .container {
-    position: relative;
-    z-index: 3;
+  position: relative;
+  z-index: 3;
 }
 
 .rideoutHome h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .rideoutHome p {
-    color: #000;
+  color: #000;
 }
 
 .event-item {
-    background: rgba(255,255,255,0.9);
-    min-height: 15px;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 6px 10px rgba(0,0,0,0.6);
-    height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  min-height: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.6);
+  height: 100%;
 }
 
 .event-item .eventExcerpt {
-    min-height: 120px;
+  min-height: 120px;
 }
 
 .event-item .imageSection {
-    position: relative;
+  position: relative;
 }
 
 .event-item .imageSection:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    z-index: 1;
-    transition: 0.5s ease;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  transition: 0.5s ease;
 }
-
 
 .event-item:hover .imageSection:after {
-    background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
-
 .event-item .imageSection h2 {
-    position:absolute;
-    bottom: 15px;
-    left: 15px;
-    z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 2;
 }
 
 a.eventLink {
-    background: #1c2858;
-    color: #fff;
-    padding: 10px 25px;
-    font-family: 'Montserrat';
-    transition: 0.5s ease;
+  background: #1c2858;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: "Montserrat";
+  transition: 0.5s ease;
 }
 
 a.eventLink.big {
-    font-size: 1.4em;
-    padding: 15px 50px;
+  font-size: 1.4em;
+  padding: 15px 50px;
 }
 
 a.eventLink:hover {
-    background: #5c6395;
-    text-decoration: none;
-    color: #fff;
+  background: #5c6395;
+  text-decoration: none;
+  color: #fff;
 }
 
 /*==================================
@@ -901,28 +935,28 @@ a.eventLink:hover {
 ==================================*/
 
 .mmeets {
-    background-image: url('../img/meets-pic.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 4rem;
+  background-image: url("../img/meets-pic.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 4rem;
 }
 
 .mmeets:after {
-    background: rgba(0,0,0,0.69);
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+  background: rgba(0, 0, 0, 0.69);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .mmeets h2,
 .mmeets p {
-    color: #fff;
+  color: #fff;
 }
 
 /*==================================
@@ -930,84 +964,84 @@ a.eventLink:hover {
 ==================================*/
 
 .clothingItem {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .clothingTitle {
-    color: #000;
+  color: #000;
 }
 
 .clothingItem h3 {
-    display: block;
-    padding: 5px;
-    color: #1c2858;
-    font-weight: 700;
-    z-index: 2;
-    margin-top: 15px;
-    margin-bottom: 0;
-    font-size: 18px;
+  display: block;
+  padding: 5px;
+  color: #1c2858;
+  font-weight: 700;
+  z-index: 2;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 18px;
 }
 
 .clothingItem a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clothingItem a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clothingItem .price {
-    font-size: 22px;
-    text-align: right;
-    color: #000;
-    font-weight: 700;
-    margin-bottom: 15px;
+  font-size: 22px;
+  text-align: right;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .clothingItem .viewButton {
-    float: right;
-    display: block;
-    width: 120px;
-    background: #1c2858;
-    text-align: center;
-    color: #fff;
-    font-family: Roboto;
-    font-weight: 700;
-    transition: 0.5s ease;
-    padding: 5px 0;
+  float: right;
+  display: block;
+  width: 120px;
+  background: #1c2858;
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  transition: 0.5s ease;
+  padding: 5px 0;
 }
 
 .clothingItem .viewButton:hover {
-    background: #5c6395;
-    color: #fff;
-    text-decoration: none;
+  background: #5c6395;
+  color: #fff;
+  text-decoration: none;
 }
 
 .ccButton {
-    background: #1c2858;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    padding: 25px 0;
-    border-radius: 50%;
-    right: 15px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.5s ease;
-    bottom: 15px;
+  background: #1c2858;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  padding: 25px 0;
+  border-radius: 50%;
+  right: 15px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s ease;
+  bottom: 15px;
 }
 
 .ccButton:hover {
-    text-decoration: none;
-    color: #fff;
-    background: #5c6395;
+  text-decoration: none;
+  color: #fff;
+  background: #5c6395;
 }
 
 .bikeContainer h2 {
-    color: #000;
+  color: #000;
 }
 
 /*=====================
@@ -1015,57 +1049,71 @@ CONTACT PAGE FORM
 ======================*/
 
 .contactForm input,
-.contactForm textArea {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    padding: 5px 15px;
-    background: #5c6395;
-    color: #fff;
-    border: none;
-    font-family: Montserrat;
-    opacity: 0.75;
-    transition: 0.5s ease;
+.contactForm textarea {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  background: #5c6395;
+  color: #fff;
+  border: none;
+  font-family: Montserrat;
+  opacity: 0.75;
+  transition: 0.5s ease;
 }
 
-.contactForm textArea {
-    min-height: 150px;
+.contactForm textarea {
+  min-height: 150px;
 }
 
 .contactForm input:focus,
-.contactForm textArea:focus {
-    opacity: 1;
+.contactForm textarea:focus {
+  opacity: 1;
 }
 
 .contactForm input::placeholder,
-.contactForm textArea::placeholder { 
-    color: #fff;
+.contactForm textarea::placeholder {
+  color: #fff;
 }
 
 .contactFormButton {
-    background: #1c2858;
-    width: 100%;
-    max-width: 220px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    color: #fff;
-    padding: 10px 0;
-    font-family: Roboto;
-    border: none;
-    text-transform: uppercase;
-    transition: 0.5s ease;
+  background: #1c2858;
+  width: 100%;
+  max-width: 220px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  padding: 10px 0;
+  font-family: Roboto;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s ease;
 }
 
 .contactFormButton:hover {
-    background: #5c6395;
+  background: #5c6395;
 }
 
-@media(max-width: 560px) {
-    .map {
-        height: 300px !important;
-        position: relative !important;
-    }
+@media (max-width: 560px) {
+  .map {
+    height: 300px !important;
+    position: relative !important;
+  }
+}
+
+.discountDisp {
+  background: #1c2858;
+  position: relative;
+  padding-left: 75px;
+}
+
+.discountDisp:after {
+  position: relative;
+  content: "\00A3";
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
 }
