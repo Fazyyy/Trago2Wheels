@@ -42,6 +42,9 @@ export default ({ data }) => {
                 <h2>{post.title}</h2>
                 <p><FontAwesomeIcon icon="calendar-alt" /> { post.ezDate }</p>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                <h3>Sign Up</h3>
+                <p>Stay up to date with the latest news and events by joining our mailing list.</p>
+                <p><small>We promise not to send spam.</small></p>
                 <div id="mc_embed_signup">
                   <form action="https://trago.us20.list-manage.com/subscribe/post?u=71e927d89bfcabbe8d580dbf2&amp;id=64904a42d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                       <div id="mc_embed_signup_scroll">
