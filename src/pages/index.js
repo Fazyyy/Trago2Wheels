@@ -7,7 +7,6 @@ import Services from "../components/services";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Helmet } from "react-helmet";
 import Map from "../components/map";
-import HomeIntro from "../components/homeIntro";
 import Img from "gatsby-image";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -29,7 +28,6 @@ export default ({ data }) => {
           rel="stylesheet"
         />
       </Helmet>
-      <HomeIntro />
       <SwiperHome />
       <div className="homeIntro gbg">
         <div className="container">
