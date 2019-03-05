@@ -1107,7 +1107,7 @@ CONTACT PAGE FORM
 .discountDisp {
   background: #1c2858;
   position: relative;
-  padding-left: 75px;
+  padding: 15px 0 15px 75px;
   border-radius: 15px;
 }
 
