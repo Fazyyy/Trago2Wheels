@@ -11,7 +11,6 @@ import Img from "gatsby-image";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
-import HomeIntro from "../components/homeIntro";
 
 library.add(faCalendarAlt);
 
@@ -30,7 +29,6 @@ export default ({ data }) => {
         />
       </Helmet>
       <SwiperHome />
-      <HomeIntro />
       <div className="homeIntro gbg">
         <div className="container">
           <div className="row">
