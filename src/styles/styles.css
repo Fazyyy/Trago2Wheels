@@ -1108,12 +1108,17 @@ CONTACT PAGE FORM
   background: #1c2858;
   position: relative;
   padding-left: 75px;
+  border-radius: 15px;
 }
 
 .discountDisp:after {
-  position: relative;
+  position: absolute;
   content: "\00A3";
   background: #fff;
   color: #000;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 15px;
 }
